@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on CYLiu</title>
+    <link>https://cyliu.cc/posts/</link>
+    <description>Recent content in Posts on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Dec 2023 10:12:27 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>typecho框架简单体验</title>
+      <link>https://cyliu.cc/posts/typecho_install/</link>
+      <pubDate>Tue, 26 Dec 2023 10:12:27 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/typecho_install/</guid>
+      <description>我的博客一直采用静态博客，有一天GitHub首页推送了一个主题，看了下预览界面挺好看，但是仔细一看是typecho框架的，又看了下typecho的介绍，挺轻量的一个框架，就尝试安装一下。
+这个框架基于php，所以我们要安装php和相关依赖，数据库可以选择mysql和sqlite，这里我选择sqlite，接下来安装相关依赖。
+1 sudo apt install php php-sqlite3 php-mbstring 然后需要安装一个http服务器，我选择nginx，
+1 sudo apt install nginx 但是要用nginx解析php程序还需要FastCGI，这里用php-fpm
+1 sudo apt install php-fpm 安装typecho框架，在下载页面下载之后解压到 /var/www/blog 下，把权限给www-data 用户
+1 sudo chown -R www-data blog 然后启用nginx和fpm服务
+1 sudo systemctl start php8.2-fpm nginx 下面要配置nginx，在/etc/nginx/sites-available 文件夹下创建文件如blog.conf
+server { listen 80; server_name &amp;lt;your domain name&amp;gt;; root /var/www/blog/; index index.php index.html index.htm; location / { try_files $uri $uri/ /index.php?$query_string; } location ~ \.php$ { include snippets/fastcgi-php.conf; fastcgi_pass unix:/var/run/php/php8.2-fpm.sock; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; } # Additional Nginx configurations.</description>
+    </item>
+    <item>
+      <title>如何优雅地科研抠图</title>
+      <link>https://cyliu.cc/posts/extract-figures-from-pdf/</link>
+      <pubDate>Wed, 09 Aug 2023 22:14:22 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/extract-figures-from-pdf/</guid>
+      <description>有时候看到好看的图表想做slides使用，或者写综述需要用到别人的图，如何将图片提取出来。万能的截图肯定可以，但是会损失清晰度，那么有没有什么方法可以将图片完美地提取出来。
+首先，如果插入的图片是png,jpeg等格式，它嵌入pdf时应该是整个二进制文件放进去，所以也可以再提取出来，这里我们使用poppler的pdfimages命令
+1 pdfimages -f [start page number] -l [last page number] -png file.pdf ./prefix 这个命令表示将file.pdf的从[start page number]到[last page number]中的图片提取出来并且保存为png格式，文件名以prefix开始编号，如prefix-000.png,prefix-001.png.
+如果图片是pdf格式，那么只能通过pdf裁剪，第一步提取出要裁剪的页面，这里用pdftk命令
+1 pdftk file.pdf cat [page number] output out.pdf 这个命令表示将file.pdf的第[page number]页提取出来并且保存为out.pdf. pdf裁剪暂时没找到好用的cli工具，不过cli工具也要设置裁剪的坐标，所以可能还是GUI程序更适合这种工作，那么我们可以用adobe acrobat或者foxit pdf editor来做，以foxit为例(因为学校买了这个授权)，点击菜单栏organize-&amp;gt;crop pages，然后拖动裁剪框保存即可。</description>
+    </item>
+    <item>
+      <title>另辟蹊径量子力学 by 范洪义</title>
+      <link>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</link>
+      <pubDate>Sun, 21 May 2023 21:24:00 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</guid>
+      <description>From 2023.05.18 Lecture
+量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。
+左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，
+$|x\rangle$ 对应一个矢量，它的演化遵循Schrodinger方程， $|x\rangle\langle x|$ 是一个算符，遵循Heisenberg方程。
+量子态都是归一的， $$ \int \psi^*(x)\psi(x)dx=1 $$ 用Dirac符号表示 $$ \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1 $$ 那么 $$ \int | x\rangle \langle x| dx = I $$ 可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算 $$ \int \left|\frac{x}{2}\right\rangle \langle x |dx $$ 又该如何计算。
+首先，给出一个关系
+$$ |x\rangle \langle x| = \delta(x-\hat X) $$ 作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等
+那么 $$ \begin{aligned} |x\rangle \langle x| &amp;= \delta(x-\hat X)\\ &amp;=\frac{1}{2\pi} \int dp e^{ip(x-\hat X)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ip\left(x-\frac{a^\dagger+a}{\sqrt 2}\right)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx}e^{-\frac{ip}{\sqrt 2}a^\dagger-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt 2}a^\dagger}e^{-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp :e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt2}(a+a^\dagger)}:\\ &amp;=\frac{1}{2\pi} \int dp :e^{-\frac{p^2}{4}+ipx-ip\hat X}:\\ &amp;=\frac{1}{2\pi}\int :e^{-\frac{1}{4}(p^2-4i(x-\hat X)-4(x-\hat X)^2)-(x-\hat X)^2}:\\ &amp;=\frac 1{\sqrt\pi} :e^{-(x-\hat X)^2}: \end{aligned} $$ 第四行到第五行用了Glauber公式，第五行到第六行加了$::$表示正规排列，将生成算符放到湮灭前面，在正规排列里产生湮灭算符是可对易的。</description>
+    </item>
+    <item>
+      <title>2023 Reading Post</title>
+      <link>https://cyliu.cc/posts/2023-reading-post/</link>
+      <pubDate>Fri, 10 Mar 2023 21:29:19 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2023-reading-post/</guid>
+      <description> cover Name Time Progress Atomic Habits 2023.01.09-2023.03.10 100% 被讨厌的勇气 2023.03.29-2023.04.02 100% 美国演义 2023.05.13-2023.08.03 100% 人有人的用处 2023.09.01-2023.10.03 100% 情人 2023.09.01-2023.10.03 100% L&amp;rsquo;Etranger 2023.10.11-2023.11.20 100% A Tale of Two Cities 2023.12.25 100% </description>
+    </item>
+    <item>
+      <title>Word Power Made Easy</title>
+      <link>https://cyliu.cc/posts/word-power-made-easy/</link>
+      <pubDate>Thu, 02 Feb 2023 22:16:33 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/word-power-made-easy/</guid>
+      <description>&lt;p&gt;Word Power Made Easy reading notes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time Progress Bar</title>
+      <link>https://cyliu.cc/posts/time-progress-bar/</link>
+      <pubDate>Mon, 23 Jan 2023 20:51:26 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/time-progress-bar/</guid>
+      <description> Today left: This week left: This month left: This year left: My life left: </description>
+    </item>
+    <item>
+      <title>Fortran</title>
+      <link>https://cyliu.cc/posts/fortran/</link>
+      <pubDate>Sat, 19 Nov 2022 14:27:04 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/fortran/</guid>
+      <description>&lt;h2 id=&#34;0-some-basic-properties&#34;&gt;0 Some basic properties&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fortran code is &lt;strong&gt;case insensitive&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Fortran code must be written in a program, similar to the &lt;code&gt;main()&lt;/code&gt; function in C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt; Hello World&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fortran&#34; data-lang=&#34;fortran&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Volume of n-ball</title>
+      <link>https://cyliu.cc/posts/volume-of-n-ball/</link>
+      <pubDate>Sun, 04 Sep 2022 16:14:25 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/volume-of-n-ball/</guid>
+      <description>&lt;p&gt;From dimensional analysis, volume of a n-ball is proportional to $R^n$&lt;/p&gt;
+$$
+V_n=C_n R^n
+$$
+&lt;p&gt;Then from $\int_0^R S_n dr=V_n$&lt;/p&gt;
+$$
+\frac{dV_n}{dR}=V_n=n C_n R^{n-1}
+$$</description>
+    </item>
+    <item>
+      <title>Neovim lsp配置</title>
+      <link>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Sat, 09 Jul 2022 19:46:56 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;之前一直是vim原教旨主义者，只用官方的vim，但是vim9推出之后看到网上的评价是重新做了一份插件语言，而neovim可以兼容vim还可以用lua配置，其次neovim内置lsp，想起之前配置语言自动补全的失败经历，尝试了下neovim的配置，果然方便太多了。
+下面记录配置python lsp的过程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trace Theorems</title>
+      <link>https://cyliu.cc/posts/trace-theorems/</link>
+      <pubDate>Wed, 15 Jun 2022 10:08:03 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/trace-theorems/</guid>
+      <description>$$
+\operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
+$$
+$$
+\operatorname{Tr}(A B \ldots Y Z) \equiv \operatorname{Tr}(Z A B \ldots Y)
+$$
+$$
+\gamma^{\mu} \gamma^{\nu}+\gamma^{\nu} \gamma^{\mu} \equiv 2 g^{\mu \nu} I
+$$</description>
+    </item>
+    <item>
+      <title>French Helper Check-in Calendar</title>
+      <link>https://cyliu.cc/posts/french-helper-pointer-calendar/</link>
+      <pubDate>Sun, 10 Apr 2022 19:03:23 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/french-helper-pointer-calendar/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Quantum Field Theory-Ryder</title>
+      <link>https://cyliu.cc/posts/quantum-field-theory-ryder/</link>
+      <pubDate>Thu, 17 Feb 2022 15:37:45 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/quantum-field-theory-ryder/</guid>
+      <description>&lt;h1 id=&#34;quantum-feild-theory-ryder&#34;&gt;Quantum Feild Theory Ryder&lt;/h1&gt;
+&lt;h2 id=&#34;chapter-2-single-particle-relativistic-wave-equations&#34;&gt;Chapter 2 Single-particle relativistic wave equations&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>2022 French Learning Post</title>
+      <link>https://cyliu.cc/posts/2022-french-learning-post/</link>
+      <pubDate>Thu, 20 Jan 2022 22:11:42 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2022-french-learning-post/</guid>
+      <description>&lt;p&gt;Date start 2022-01-20&lt;/p&gt;
+&lt;p&gt;Le Petit Prince Chapter I&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2022 Reading Post</title>
+      <link>https://cyliu.cc/posts/2022-reading-post/</link>
+      <pubDate>Mon, 03 Jan 2022 12:48:53 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2022-reading-post/</guid>
+      <description> cover Name Time Progress 沙丘 2022.03.10-2022.03.12 100% 夏天、烟火和我的尸体 2022.05.12 100% 美国众神 2022.06.14-2022.06.16 100% 伽利略的苦恼 2022.07.09-2022.07.12 100% Charlie et la Chocolaterie 2022.07 100% Great Expectations 2022.08.02-2022.09.24 100% </description>
+    </item>
+    <item>
+      <title>Personal Download Site</title>
+      <link>https://cyliu.cc/posts/personal-download-site/</link>
+      <pubDate>Sun, 14 Nov 2021 20:28:28 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/personal-download-site/</guid>
+      <description>AList
+My personal drive, based on this project.
+Physics folder username &amp;ldquo;liucy&amp;rdquo;, password &amp;ldquo;liucy&amp;rdquo;.
+Mathematics folder username &amp;ldquo;cyliu&amp;rdquo;, password &amp;ldquo;cyliu&amp;rdquo;.
+TE (The Economist magazine) folder username &amp;ldquo;TE&amp;rdquo;, password &amp;ldquo;theeconomist&amp;rdquo;.
+Code folder username &amp;ldquo;codecyl&amp;rdquo;, password &amp;ldquo;codecyl&amp;rdquo;.
+Languages folder username &amp;ldquo;cyllang&amp;rdquo;, password &amp;ldquo;cyllang&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Install Linux Distro on Android</title>
+      <link>https://cyliu.cc/posts/install-linux-distro-on-android/</link>
+      <pubDate>Fri, 01 Oct 2021 14:02:45 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/install-linux-distro-on-android/</guid>
+      <description>&lt;p&gt;Android is based on linux kernel, so in theory Android system is able to accomplish many tasks in Linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>内网穿透与vnc</title>
+      <link>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</link>
+      <pubDate>Tue, 28 Sep 2021 21:40:00 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</guid>
+      <description>&lt;h2 id=&#34;内网穿透&#34;&gt;内网穿透&lt;/h2&gt;
+&lt;p&gt;最简单的方案为ssh端口转发，但是ssh断掉之后不会自动重连，我们需要autossh，它可以监控本地端口状态自动重连&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Group Theory for Physicists</title>
+      <link>https://cyliu.cc/posts/group-theory-for-physicists/</link>
+      <pubDate>Sun, 27 Jun 2021 20:48:15 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/group-theory-for-physicists/</guid>
+      <description>&lt;h1 id=&#34;group-theory-for-physicists&#34;&gt;Group Theory for Physicists&lt;/h1&gt;
+&lt;h2 id=&#34;22-group-and-its-multiplication-table&#34;&gt;2.2 Group and its Multiplication Table&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Symmetric Transformation&lt;/strong&gt;: A transformation is called the symmetric transformation of a system if it preserves the system invariant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition of a Group&lt;/strong&gt;:&lt;br&gt;
+A group $G$ is a set of symmetric transformation with a defined multiplication of elements, and satisfies the following rules:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A visual introduction to differential forms and calculus on manifolds</title>
+      <link>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</link>
+      <pubDate>Mon, 31 May 2021 00:21:48 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</guid>
+      <description>&lt;h2 id=&#34;a-visual-introduction-to-differential-forms-and-calculus-on-manifolds&#34;&gt;A visual introduction to differential forms and calculus on manifolds&lt;/h2&gt;
+&lt;h3 id=&#34;chapter-1-background-material&#34;&gt;Chapter 1 Background material&lt;/h3&gt;
+&lt;h4 id=&#34;11-review-of-vector-spaces&#34;&gt;1.1 Review of vector spaces&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;vector spaces&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$u,v,w\in V$,$c,d \in \mathbb R$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$v+w=w+v$&lt;/li&gt;
+&lt;li&gt;$(u+v)+w=u+(v+w)$&lt;/li&gt;
+&lt;li&gt;$v+0=0+v$&lt;/li&gt;
+&lt;li&gt;$v+(-v)=0$&lt;/li&gt;
+&lt;li&gt;$1\cdot v=v$&lt;/li&gt;
+&lt;li&gt;$c\cdot (d\cdot v)=(c\cdot d)\cdot v$&lt;/li&gt;
+&lt;li&gt;$c\cdot(v+w)=c\cdot v+c\cdot w$&lt;/li&gt;
+&lt;li&gt;$(c+d)\cdot v=c\cdot v+d\cdot v$&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>阿里云服务器安装Arch并配置</title>
+      <link>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Mon, 19 Apr 2021 10:14:12 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;前天把阿里云服务器的Ubuntu重装成了ArchLinux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vim Markdown 方案</title>
+      <link>https://cyliu.cc/posts/vim-markdown/</link>
+      <pubDate>Sun, 04 Apr 2021 21:55:06 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/vim-markdown/</guid>
+      <description>&lt;p&gt;摸鱼的一天，没怎么看论文，在折腾一些软件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on CYLiu</title>
+    <link>https://cyliu.cc/categories/linux/</link>
+    <description>Recent content in Linux on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Oct 2021 14:02:45 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Linux Distro on Android</title>
+      <link>https://cyliu.cc/posts/install-linux-distro-on-android/</link>
+      <pubDate>Fri, 01 Oct 2021 14:02:45 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/install-linux-distro-on-android/</guid>
+      <description>&lt;p&gt;Android is based on linux kernel, so in theory Android system is able to accomplish many tasks in Linux.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

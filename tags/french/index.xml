@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>French on CYLiu</title>
+    <link>https://cyliu.cc/tags/french/</link>
+    <description>Recent content in French on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Jan 2022 22:11:42 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/tags/french/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 French Learning Post</title>
+      <link>https://cyliu.cc/posts/2022-french-learning-post/</link>
+      <pubDate>Thu, 20 Jan 2022 22:11:42 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2022-french-learning-post/</guid>
+      <description>&lt;p&gt;Date start 2022-01-20&lt;/p&gt;
+&lt;p&gt;Le Petit Prince Chapter I&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

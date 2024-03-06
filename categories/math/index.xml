@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Math on CYLiu</title>
+    <link>https://cyliu.cc/categories/math/</link>
+    <description>Recent content in Math on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Sep 2022 16:14:25 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Volume of n-ball</title>
+      <link>https://cyliu.cc/posts/volume-of-n-ball/</link>
+      <pubDate>Sun, 04 Sep 2022 16:14:25 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/volume-of-n-ball/</guid>
+      <description>&lt;p&gt;From dimensional analysis, volume of a n-ball is proportional to $R^n$&lt;/p&gt;
+$$
+V_n=C_n R^n
+$$
+&lt;p&gt;Then from $\int_0^R S_n dr=V_n$&lt;/p&gt;
+$$
+\frac{dV_n}{dR}=V_n=n C_n R^{n-1}
+$$</description>
+    </item>
+    <item>
+      <title>Group Theory for Physicists</title>
+      <link>https://cyliu.cc/posts/group-theory-for-physicists/</link>
+      <pubDate>Sun, 27 Jun 2021 20:48:15 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/group-theory-for-physicists/</guid>
+      <description>&lt;h1 id=&#34;group-theory-for-physicists&#34;&gt;Group Theory for Physicists&lt;/h1&gt;
+&lt;h2 id=&#34;22-group-and-its-multiplication-table&#34;&gt;2.2 Group and its Multiplication Table&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Symmetric Transformation&lt;/strong&gt;: A transformation is called the symmetric transformation of a system if it preserves the system invariant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Definition of a Group&lt;/strong&gt;:&lt;br&gt;
+A group $G$ is a set of symmetric transformation with a defined multiplication of elements, and satisfies the following rules:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A visual introduction to differential forms and calculus on manifolds</title>
+      <link>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</link>
+      <pubDate>Mon, 31 May 2021 00:21:48 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</guid>
+      <description>&lt;h2 id=&#34;a-visual-introduction-to-differential-forms-and-calculus-on-manifolds&#34;&gt;A visual introduction to differential forms and calculus on manifolds&lt;/h2&gt;
+&lt;h3 id=&#34;chapter-1-background-material&#34;&gt;Chapter 1 Background material&lt;/h3&gt;
+&lt;h4 id=&#34;11-review-of-vector-spaces&#34;&gt;1.1 Review of vector spaces&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;vector spaces&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$u,v,w\in V$,$c,d \in \mathbb R$&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$v+w=w+v$&lt;/li&gt;
+&lt;li&gt;$(u+v)+w=u+(v+w)$&lt;/li&gt;
+&lt;li&gt;$v+0=0+v$&lt;/li&gt;
+&lt;li&gt;$v+(-v)=0$&lt;/li&gt;
+&lt;li&gt;$1\cdot v=v$&lt;/li&gt;
+&lt;li&gt;$c\cdot (d\cdot v)=(c\cdot d)\cdot v$&lt;/li&gt;
+&lt;li&gt;$c\cdot(v+w)=c\cdot v+c\cdot w$&lt;/li&gt;
+&lt;li&gt;$(c+d)\cdot v=c\cdot v+d\cdot v$&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

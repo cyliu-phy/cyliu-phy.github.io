@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Physics on CYLiu</title>
+    <link>https://cyliu.cc/categories/physics/</link>
+    <description>Recent content in Physics on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 May 2023 21:24:00 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>另辟蹊径量子力学 by 范洪义</title>
+      <link>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</link>
+      <pubDate>Sun, 21 May 2023 21:24:00 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</guid>
+      <description>From 2023.05.18 Lecture
+量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。
+左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，
+$|x\rangle$ 对应一个矢量，它的演化遵循Schrodinger方程， $|x\rangle\langle x|$ 是一个算符，遵循Heisenberg方程。
+量子态都是归一的， $$ \int \psi^*(x)\psi(x)dx=1 $$ 用Dirac符号表示 $$ \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1 $$ 那么 $$ \int | x\rangle \langle x| dx = I $$ 可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算 $$ \int \left|\frac{x}{2}\right\rangle \langle x |dx $$ 又该如何计算。
+首先，给出一个关系
+$$ |x\rangle \langle x| = \delta(x-\hat X) $$ 作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等
+那么 $$ \begin{aligned} |x\rangle \langle x| &amp;= \delta(x-\hat X)\\ &amp;=\frac{1}{2\pi} \int dp e^{ip(x-\hat X)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ip\left(x-\frac{a^\dagger+a}{\sqrt 2}\right)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx}e^{-\frac{ip}{\sqrt 2}a^\dagger-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt 2}a^\dagger}e^{-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp :e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt2}(a+a^\dagger)}:\\ &amp;=\frac{1}{2\pi} \int dp :e^{-\frac{p^2}{4}+ipx-ip\hat X}:\\ &amp;=\frac{1}{2\pi}\int :e^{-\frac{1}{4}(p^2-4i(x-\hat X)-4(x-\hat X)^2)-(x-\hat X)^2}:\\ &amp;=\frac 1{\sqrt\pi} :e^{-(x-\hat X)^2}: \end{aligned} $$ 第四行到第五行用了Glauber公式，第五行到第六行加了$::$表示正规排列，将生成算符放到湮灭前面，在正规排列里产生湮灭算符是可对易的。</description>
+    </item>
+    <item>
+      <title>Trace Theorems</title>
+      <link>https://cyliu.cc/posts/trace-theorems/</link>
+      <pubDate>Wed, 15 Jun 2022 10:08:03 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/trace-theorems/</guid>
+      <description>$$
+\operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
+$$
+$$
+\operatorname{Tr}(A B \ldots Y Z) \equiv \operatorname{Tr}(Z A B \ldots Y)
+$$
+$$
+\gamma^{\mu} \gamma^{\nu}+\gamma^{\nu} \gamma^{\mu} \equiv 2 g^{\mu \nu} I
+$$</description>
+    </item>
+    <item>
+      <title>Quantum Field Theory-Ryder</title>
+      <link>https://cyliu.cc/posts/quantum-field-theory-ryder/</link>
+      <pubDate>Thu, 17 Feb 2022 15:37:45 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/quantum-field-theory-ryder/</guid>
+      <description>&lt;h1 id=&#34;quantum-feild-theory-ryder&#34;&gt;Quantum Feild Theory Ryder&lt;/h1&gt;
+&lt;h2 id=&#34;chapter-2-single-particle-relativistic-wave-equations&#34;&gt;Chapter 2 Single-particle relativistic wave equations&lt;/h2&gt;</description>
+    </item>
+  </channel>
+</rss>

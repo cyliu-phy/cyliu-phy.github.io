@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reading on CYLiu</title>
+    <link>https://cyliu.cc/tags/reading/</link>
+    <description>Recent content in Reading on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Mar 2023 21:29:19 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 Reading Post</title>
+      <link>https://cyliu.cc/posts/2023-reading-post/</link>
+      <pubDate>Fri, 10 Mar 2023 21:29:19 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2023-reading-post/</guid>
+      <description> cover Name Time Progress Atomic Habits 2023.01.09-2023.03.10 100% 被讨厌的勇气 2023.03.29-2023.04.02 100% 美国演义 2023.05.13-2023.08.03 100% 人有人的用处 2023.09.01-2023.10.03 100% 情人 2023.09.01-2023.10.03 100% L&amp;rsquo;Etranger 2023.10.11-2023.11.20 100% A Tale of Two Cities 2023.12.25 100% </description>
+    </item>
+    <item>
+      <title>2022 Reading Post</title>
+      <link>https://cyliu.cc/posts/2022-reading-post/</link>
+      <pubDate>Mon, 03 Jan 2022 12:48:53 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/2022-reading-post/</guid>
+      <description> cover Name Time Progress 沙丘 2022.03.10-2022.03.12 100% 夏天、烟火和我的尸体 2022.05.12 100% 美国众神 2022.06.14-2022.06.16 100% 伽利略的苦恼 2022.07.09-2022.07.12 100% Charlie et la Chocolaterie 2022.07 100% Great Expectations 2022.08.02-2022.09.24 100% </description>
+    </item>
+  </channel>
+</rss>

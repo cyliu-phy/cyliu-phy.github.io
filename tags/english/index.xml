@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>English on CYLiu</title>
+    <link>https://cyliu.cc/tags/english/</link>
+    <description>Recent content in English on CYLiu</description>
+    <image>
+      <title>CYLiu</title>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Feb 2023 22:16:33 +0000</lastBuildDate>
+    <atom:link href="https://cyliu.cc/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Word Power Made Easy</title>
+      <link>https://cyliu.cc/posts/word-power-made-easy/</link>
+      <pubDate>Thu, 02 Feb 2023 22:16:33 +0000</pubDate>
+      <guid>https://cyliu.cc/posts/word-power-made-easy/</guid>
+      <description>&lt;p&gt;Word Power Made Easy reading notes&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
