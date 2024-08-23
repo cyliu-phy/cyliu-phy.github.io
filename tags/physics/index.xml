@@ -22,10 +22,10 @@
 量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。
 左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，
 $|x\rangle$ 对应一个矢量，它的演化遵循Schrodinger方程， $|x\rangle\langle x|$ 是一个算符，遵循Heisenberg方程。
-量子态都是归一的， $$ \int \psi^*(x)\psi(x)dx=1 $$ 用Dirac符号表示 $$ \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1 $$ 那么 $$ \int | x\rangle \langle x| dx = I $$ 可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算 $$ \int \left|\frac{x}{2}\right\rangle \langle x |dx $$ 又该如何计算。
+量子态都是归一的， $$ \int \psi^*(x)\psi(x)dx=1 $$ 用Dirac符号表示 $$ \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1 $$那么 $$ \int | x\rangle \langle x| dx = I $$ 可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算 $$ \int \left|\frac{x}{2}\right\rangle \langle x |dx $$又该如何计算。
 首先，给出一个关系
-$$ |x\rangle \langle x| = \delta(x-\hat X) $$ 作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等
-那么 $$ \begin{aligned} |x\rangle \langle x| &amp;= \delta(x-\hat X)\\ &amp;=\frac{1}{2\pi} \int dp e^{ip(x-\hat X)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ip\left(x-\frac{a^\dagger+a}{\sqrt 2}\right)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx}e^{-\frac{ip}{\sqrt 2}a^\dagger-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt 2}a^\dagger}e^{-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp :e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt2}(a+a^\dagger)}:\\ &amp;=\frac{1}{2\pi} \int dp :e^{-\frac{p^2}{4}+ipx-ip\hat X}:\\ &amp;=\frac{1}{2\pi}\int :e^{-\frac{1}{4}(p^2-4i(x-\hat X)-4(x-\hat X)^2)-(x-\hat X)^2}:\\ &amp;=\frac 1{\sqrt\pi} :e^{-(x-\hat X)^2}: \end{aligned} $$ 第四行到第五行用了Glauber公式，第五行到第六行加了$::$表示正规排列，将生成算符放到湮灭前面，在正规排列里产生湮灭算符是可对易的。</description>
+$$ |x\rangle \langle x| = \delta(x-\hat X) $$作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等
+那么 $$ \begin{aligned} |x\rangle \langle x| &amp;= \delta(x-\hat X)\\ &amp;=\frac{1}{2\pi} \int dp e^{ip(x-\hat X)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ip\left(x-\frac{a^\dagger+a}{\sqrt 2}\right)}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx}e^{-\frac{ip}{\sqrt 2}a^\dagger-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt 2}a^\dagger}e^{-\frac{ip}{\sqrt2}a}\\ &amp;=\frac{1}{2\pi}\int dp :e^{ipx-\frac{p^2}{4}}e^{-\frac{ip}{\sqrt2}(a+a^\dagger)}:\\ &amp;=\frac{1}{2\pi} \int dp :e^{-\frac{p^2}{4}+ipx-ip\hat X}:\\ &amp;=\frac{1}{2\pi}\int :e^{-\frac{1}{4}(p^2-4i(x-\hat X)-4(x-\hat X)^2)-(x-\hat X)^2}:\\ &amp;=\frac 1{\sqrt\pi} :e^{-(x-\hat X)^2}: \end{aligned} $$第四行到第五行用了Glauber公式，第五行到第六行加了$::$表示正规排列，将生成算符放到湮灭前面，在正规排列里产生湮灭算符是可对易的。</description>
     </item>
     <item>
       <title>Quantum Field Theory-Ryder</title>

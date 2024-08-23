@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cyliu.cc/categories/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
     <loc>https://cyliu.cc/</loc>
-    <lastmod>2023-12-26T10:12:27+00:00</lastmod>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/tags/french/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/categories/french/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/posts/french_grammar/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/tags/grammar/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/</loc>
-    <lastmod>2023-12-26T10:12:27+00:00</lastmod>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/tags/</loc>
+    <lastmod>2024-08-23T22:16:53+08:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/typecho_install/</loc>
     <lastmod>2023-12-26T10:12:27+00:00</lastmod>
@@ -14,16 +32,10 @@
     <loc>https://cyliu.cc/posts/extract-figures-from-pdf/</loc>
     <lastmod>2023-08-09T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/categories/</loc>
-    <lastmod>2023-05-21T21:24:00+00:00</lastmod>
-  </url><url>
     <loc>https://cyliu.cc/tags/physics/</loc>
     <lastmod>2023-05-21T21:24:00+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/categories/physics/</loc>
-    <lastmod>2023-05-21T21:24:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cyliu.cc/tags/</loc>
     <lastmod>2023-05-21T21:24:00+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</loc>
@@ -93,12 +105,6 @@
     <lastmod>2022-02-17T15:37:45+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/2022-french-learning-post/</loc>
-    <lastmod>2022-01-20T22:11:42+00:00</lastmod>
-  </url><url>
-    <loc>https://cyliu.cc/tags/french/</loc>
-    <lastmod>2022-01-20T22:11:42+00:00</lastmod>
-  </url><url>
-    <loc>https://cyliu.cc/categories/french/</loc>
     <lastmod>2022-01-20T22:11:42+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/tags/language/</loc>

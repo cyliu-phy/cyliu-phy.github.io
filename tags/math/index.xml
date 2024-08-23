@@ -21,8 +21,7 @@
       <description>&lt;p&gt;From dimensional analysis, volume of a n-ball is proportional to $R^n$&lt;/p&gt;
 $$
 V_n=C_n R^n
-$$
-&lt;p&gt;Then from $\int_0^R S_n dr=V_n$&lt;/p&gt;
+$$&lt;p&gt;Then from $\int_0^R S_n dr=V_n$&lt;/p&gt;
 $$
 \frac{dV_n}{dR}=V_n=n C_n R^{n-1}
 $$</description>
@@ -34,11 +33,9 @@ $$</description>
       <guid>https://cyliu.cc/posts/trace-theorems/</guid>
       <description>$$
 \operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
-$$
-$$
+$$$$
 \operatorname{Tr}(A B \ldots Y Z) \equiv \operatorname{Tr}(Z A B \ldots Y)
-$$
-$$
+$$$$
 \gamma^{\mu} \gamma^{\nu}+\gamma^{\nu} \gamma^{\mu} \equiv 2 g^{\mu \nu} I
 $$</description>
     </item>

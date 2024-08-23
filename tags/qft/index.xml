@@ -20,11 +20,9 @@
       <guid>https://cyliu.cc/posts/trace-theorems/</guid>
       <description>$$
 \operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
-$$
-$$
+$$$$
 \operatorname{Tr}(A B \ldots Y Z) \equiv \operatorname{Tr}(Z A B \ldots Y)
-$$
-$$
+$$$$
 \gamma^{\mu} \gamma^{\nu}+\gamma^{\nu} \gamma^{\mu} \equiv 2 g^{\mu \nu} I
 $$</description>
     </item>
