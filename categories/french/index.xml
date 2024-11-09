@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/categories/french/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,105 @@
       <link>https://cyliu.cc/posts/french_grammar/</link>
       <pubDate>Fri, 23 Aug 2024 22:16:53 +0800</pubDate>
       <guid>https://cyliu.cc/posts/french_grammar/</guid>
-      <description>Chapter 6 Present tense Subject pronouns je tu il/elle on nous vous ils/elles On refers to people, il(s)/elle(s) refer to things When vous is used as a formal form of tu, it&amp;rsquo;s still considered as plural Conjugation of verbs Conjugation: verbs change its format according to gender/number/pronoun e.g. pronouner (to speak)
-je parle, tu parles, il/ells/on parle nous parlons, vous parlez, ils/elles parlent Verbs with regular conjugation can be classified as 3 groups -er, -ir, -re -er verbs e.</description>
+      <description>&lt;p&gt;Based on &lt;em&gt;French Grammar for Dummies&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;chapter-3-nouns-and-determiners&#34;&gt;Chapter 3 Nouns and Determiners&lt;/h2&gt;
+&lt;h3 id=&#34;gender-of-nouns&#34;&gt;Gender of Nouns&lt;/h3&gt;
+&lt;p&gt;French nouns have gender: &lt;strong&gt;masculine&lt;/strong&gt; and &lt;strong&gt;feminine&lt;/strong&gt;, it has nothing to do with logic.&lt;/p&gt;
+&lt;h3 id=&#34;patterns-of-masculine-nouns-and-feminine-nouns&#34;&gt;Patterns of Masculine Nouns and Feminine Nouns&lt;/h3&gt;
+&lt;p&gt;There&amp;rsquo;re some patterns that can be used to recognize gender of nouns&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Masculine Ending&lt;/th&gt;
+          &lt;th&gt;Examples&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-acle&lt;/td&gt;
+          &lt;td&gt;miracle, spectacle, obstacle&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-agle&lt;/td&gt;
+          &lt;td&gt;fromage, voyage, bagage&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-aire&lt;/td&gt;
+          &lt;td&gt;frigidaire, anniversaire&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-é(but not té)&lt;/td&gt;
+          &lt;td&gt;degré, marché&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-eau&lt;/td&gt;
+          &lt;td&gt;drapeau, chapeau&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-er, and -ier&lt;/td&gt;
+          &lt;td&gt;dîner, panier&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-isme&lt;/td&gt;
+          &lt;td&gt;tourisme, absolutisme&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ment&lt;/td&gt;
+          &lt;td&gt;gouverment, ornement&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Feminine Ending&lt;/th&gt;
+          &lt;th&gt;Examples&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ade&lt;/td&gt;
+          &lt;td&gt;façade, promenade&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ance&lt;/td&gt;
+          &lt;td&gt;enfance, naissance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ée&lt;/td&gt;
+          &lt;td&gt;idée, journée&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ence&lt;/td&gt;
+          &lt;td&gt;différence, innocence&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ette&lt;/td&gt;
+          &lt;td&gt;crevette, chausette&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ie&lt;/td&gt;
+          &lt;td&gt;comédie, industrie&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-sion&lt;/td&gt;
+          &lt;td&gt;prévision, révision&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-té&lt;/td&gt;
+          &lt;td&gt;société, publicité&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-tion&lt;/td&gt;
+          &lt;td&gt;information, éducation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;-ure&lt;/td&gt;
+          &lt;td&gt;voiture, couverture&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Masculine categories:&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 French Learning Post</title>
