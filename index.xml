@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/index.xml" rel="self" type="application/rss+xml" />
@@ -254,31 +254,19 @@
 &lt;p&gt;量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。&lt;/p&gt;
 &lt;p&gt;左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，&lt;/p&gt;
 &lt;p&gt;$|x\rangle$ 对应一个矢量，它的演化遵循Schrodinger方程， $|x\rangle\langle x|$ 是一个算符，遵循Heisenberg方程。&lt;/p&gt;
-&lt;p&gt;量子态都是归一的，
-&lt;/p&gt;
 $$
 \int \psi^*(x)\psi(x)dx=1
-$$&lt;p&gt;
-用Dirac符号表示
-&lt;/p&gt;
-$$
+$$$$
 \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1
-$$&lt;p&gt;那么
-&lt;/p&gt;
-$$
+$$$$
 \int | x\rangle \langle x| dx = I
-$$&lt;p&gt;
-可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算
-&lt;/p&gt;
-$$
+$$$$
 \int \left|\frac{x}{2}\right\rangle \langle x |dx
 $$&lt;p&gt;又该如何计算。&lt;/p&gt;
 &lt;p&gt;首先，给出一个关系&lt;/p&gt;
 $$
 |x\rangle \langle x| = \delta(x-\hat X)
 $$&lt;p&gt;作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等&lt;/p&gt;
-&lt;p&gt;那么
-&lt;/p&gt;
 $$
 \begin{aligned}
 |x\rangle \langle x| &amp;= \delta(x-\hat X)\\
@@ -365,7 +353,23 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
       <link>https://cyliu.cc/posts/time-progress-bar/</link>
       <pubDate>Mon, 23 Jan 2023 20:51:26 +0000</pubDate>
       <guid>https://cyliu.cc/posts/time-progress-bar/</guid>
-      <description>&lt;table&gt;
+      <description>&lt;style&gt;
+    body {
+        font-family: Arial, sans-serif;
+        // max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+&lt;/style&gt;
+&lt;table&gt;
     &lt;tbody&gt;
         &lt;tr&gt;&lt;td&gt;Today left: &lt;/td&gt;  &lt;td id=&#34;day&#34;&gt;&lt;/td&gt;&lt;td id=&#34;dayP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
         &lt;tr&gt;&lt;td&gt;This week left: &lt;/td&gt;  &lt;td id=&#34;week&#34;&gt;&lt;/td&gt;&lt;td id=&#34;weekP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
@@ -375,100 +379,104 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
     &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;script&gt;
-let myDate = new Date();
-let hour = myDate.getHours();
-let minute = myDate.getMinutes();
-let day = myDate.getDay();
-if (day === 0) day = 7; // Corrected for Sunday
-let date = myDate.getDate();
-let month = myDate.getMonth();
-let year = myDate.getFullYear();
+class TimeProgressTracker {
+    constructor(birthDate = new Date(1999, 9, 17), lifeSpan = 70) {
+        this.birthDate = birthDate;
+        this.lifeSpan = lifeSpan;
+        this.elements = {
+            day: { bar: document.getElementById(&#39;day&#39;), perc: document.getElementById(&#39;dayP&#39;) },
+            week: { bar: document.getElementById(&#39;week&#39;), perc: document.getElementById(&#39;weekP&#39;) },
+            month: { bar: document.getElementById(&#39;month&#39;), perc: document.getElementById(&#39;monthP&#39;) },
+            year: { bar: document.getElementById(&#39;year&#39;), perc: document.getElementById(&#39;yearP&#39;) },
+            life: { bar: document.getElementById(&#39;life&#39;), perc: document.getElementById(&#39;lifeP&#39;) }
+        };
 
-let thisMonth = new Date(year, month, 1, 8);
-let nextMonth = new Date(year, month + 1, 1, 8);
+        // Start real-time updates
+        this.startRealTimeUpdates();
+    }
 
-let startOfYear = new Date(year, 0, 1, 8);
-let nextYear = new Date(year + 1, 0, 1, 8);
+    // Progress bar generation method
+    getProgressBar(percent) {
+        const phases = [&#39;🌑&#39;, &#39;🌘&#39;, &#39;🌗&#39;, &#39;🌖&#39;, &#39;🌕&#39;];
+        
+        if (percent &gt;= 1) return &#39;🌕&#39;.repeat(10);
+        
+        const fullLights = Math.floor(percent * 10);
+        const remainder = Math.round(((percent * 1000) % 100) / 25);
+        
+        const midPhase = remainder &lt; phases.length ? phases[remainder] : &#39;🌑&#39;;
+        
+        return &#39;🌕&#39;.repeat(fullLights) + midPhase + &#39;🌑&#39;.repeat(9 - fullLights);
+    }
 
-let birthDate = new Date(1999, 9, 17, 8); // month starts with 0
-let lifeSpan = 70;
-let endDate = new Date(1999 + lifeSpan, 9, 17, 8);
+    // Percentage calculation methods
+    calculateDayProgress(date) {
+        const hour = date.getHours();
+        const minute = date.getMinutes();
+        return 1 - (hour + minute / 60) / 24;
+    }
 
-const getProgresBar = (percent) =&gt; {
-    let light = &#39;🌕&#39;;
-    let dark = &#39;🌑&#39;;
-    let one_fourth = &#39;🌘&#39;;
-    let one_half = &#39;🌗&#39;;
-    let three_fourth = &#39;🌖&#39;;
+    calculateWeekProgress(date) {
+        let day = date.getDay();
+        day = day === 0 ? 7 : day; // Corrected for Sunday
+        const dayProgress = this.calculateDayProgress(date);
+        return (7 - day + dayProgress) / 7;
+    }
 
-    if (percent === 1) {
-        return light.repeat(10);
-    } else {
-        numLight = Math.floor(percent * 10);
-        numDark = 9 - numLight;
+    calculateMonthProgress(date) {
+        const year = date.getFullYear();
+        const month = date.getMonth();
+        const thisMonth = new Date(year, month, 1, 8);
+        const nextMonth = new Date(year, month + 1, 1, 8);
+        return (nextMonth - date) / (nextMonth - thisMonth);
+    }
 
-        let middle = &#39;&#39;;
-        let remainder = Math.round(((1000 * percent) % 100) / 25);
+    calculateYearProgress(date) {
+        const year = date.getFullYear();
+        const startOfYear = new Date(year, 0, 1, 8);
+        const nextYear = new Date(year + 1, 0, 1, 8);
+        return (nextYear - date) / (nextYear - startOfYear);
+    }
 
-        switch (remainder) {
-            case 0:
-                middle = dark;
-                break;
-            case 1:
-                middle = one_fourth;
-                break;
-            case 2:
-                middle = one_half;
-                break;
-            case 3:
-                middle = three_fourth;
-                break;
-            case 4:
-                middle = light;
-        }
-        progressBar = light.repeat(numLight) + middle + dark.repeat(numDark);
+    calculateLifeProgress(date) {
+        const endDate = new Date(
+            this.birthDate.getFullYear() + this.lifeSpan, 
+            this.birthDate.getMonth(), 
+            this.birthDate.getDate(), 
+            8
+        );
+        return 1 - (date - this.birthDate) / (endDate - this.birthDate);
+    }
 
-        return progressBar;
+    // Update all progress indicators
+    updateProgressIndicators() {
+        const now = new Date();
+        const progressCalculations = [
+            { key: &#39;day&#39;, calc: this.calculateDayProgress.bind(this) },
+            { key: &#39;week&#39;, calc: this.calculateWeekProgress.bind(this) },
+            { key: &#39;month&#39;, calc: this.calculateMonthProgress.bind(this) },
+            { key: &#39;year&#39;, calc: this.calculateYearProgress.bind(this) },
+            { key: &#39;life&#39;, calc: this.calculateLifeProgress.bind(this) }
+        ];
+
+        progressCalculations.forEach(({ key, calc }) =&gt; {
+            const percent = calc(now);
+            const roundedPercent = Math.round(percent * 100);
+            
+            this.elements[key].bar.textContent = this.getProgressBar(percent);
+            this.elements[key].perc.textContent = `${roundedPercent}%`;
+        });
+    }
+
+    // Start real-time updates every second
+    startRealTimeUpdates() {
+        this.updateProgressIndicators();
+        setInterval(() =&gt; this.updateProgressIndicators(), 1000);
     }
 }
 
-const percRound = (percent) =&gt; Math.round(percent * 100);
-
-let dayPerc = 1 - (hour + minute / 60) / 24;
-let weekPerc = (7 - day + dayPerc) / 7;
-let monthPerc = (nextMonth - myDate) / (nextMonth - thisMonth);
-let yearPerc = (nextYear - myDate) / (nextYear - startOfYear);
-let lifePerc = 1 - (myDate - birthDate) / (endDate - birthDate);
-
-let tday = document.querySelector(&#39;#day&#39;);
-tday.innerHTML = getProgresBar(dayPerc);
-
-let tweek = document.querySelector(&#39;#week&#39;);
-tweek.innerHTML = getProgresBar(weekPerc);
-
-let tmonth = document.querySelector(&#39;#month&#39;);
-tmonth.innerHTML = getProgresBar(monthPerc);
-
-let tyear = document.querySelector(&#39;#year&#39;);
-tyear.innerHTML = getProgresBar(yearPerc);
-
-let tlife = document.querySelector(&#39;#life&#39;);
-tlife.innerHTML = getProgresBar(lifePerc);
-
-let tdayP = document.querySelector(&#39;#dayP&#39;);
-tdayP.innerHTML = percRound(dayPerc) + &#34;%&#34;;
-
-let tweekP = document.querySelector(&#39;#weekP&#39;);
-tweekP.innerHTML = percRound(weekPerc) + &#34;%&#34;;
-
-let tmonthP = document.querySelector(&#39;#monthP&#39;);
-tmonthP.innerHTML = percRound(monthPerc) + &#34;%&#34;;
-
-let tyearP = document.querySelector(&#39;#yearP&#39;);
-tyearP.innerHTML = percRound(yearPerc) + &#34;%&#34;;
-
-let tlifeP = document.querySelector(&#39;#lifeP&#39;);
-tlifeP.innerHTML = percRound(lifePerc) + &#34;%&#34;;
+// Initialize the tracker
+new TimeProgressTracker();
 &lt;/script&gt;</description>
     </item>
     <item>
