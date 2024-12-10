@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.2</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -354,12 +354,6 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
       <pubDate>Mon, 23 Jan 2023 20:51:26 +0000</pubDate>
       <guid>https://cyliu.cc/posts/time-progress-bar/</guid>
       <description>&lt;style&gt;
-    body {
-        font-family: Arial, sans-serif;
-        // max-width: 500px;
-        margin: 0 auto;
-        padding: 20px;
-    }
     table {
         width: 100%;
         border-collapse: collapse;
@@ -368,14 +362,18 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
         padding: 10px;
         border-bottom: 1px solid #eee;
     }
+    .percent {
+        font-family: monospace;
+        letter-spacing: -1px;
+    }
 &lt;/style&gt;
 &lt;table&gt;
     &lt;tbody&gt;
-        &lt;tr&gt;&lt;td&gt;Today left: &lt;/td&gt;  &lt;td id=&#34;day&#34;&gt;&lt;/td&gt;&lt;td id=&#34;dayP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
-        &lt;tr&gt;&lt;td&gt;This week left: &lt;/td&gt;  &lt;td id=&#34;week&#34;&gt;&lt;/td&gt;&lt;td id=&#34;weekP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
-        &lt;tr&gt;&lt;td&gt;This month left: &lt;/td&gt;  &lt;td id=&#34;month&#34;&gt;&lt;/td&gt;&lt;td id=&#34;monthP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
-        &lt;tr&gt;&lt;td&gt;This year left: &lt;/td&gt;  &lt;td id=&#34;year&#34;&gt;&lt;/td&gt;&lt;td id=&#34;yearP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
-        &lt;tr&gt;&lt;td&gt;My life left: &lt;/td&gt;  &lt;td id=&#34;life&#34;&gt;&lt;/td&gt;&lt;td id=&#34;lifeP&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Today left: &lt;/td&gt;  &lt;td id=&#34;day&#34;&gt;&lt;/td&gt;&lt;td id=&#34;dayP&#34; class=&#34;percent&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;This week left: &lt;/td&gt;  &lt;td id=&#34;week&#34;&gt;&lt;/td&gt;&lt;td id=&#34;weekP&#34; class=&#34;percent&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;This month left: &lt;/td&gt;  &lt;td id=&#34;month&#34;&gt;&lt;/td&gt;&lt;td id=&#34;monthP&#34; class=&#34;percent&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;This year left: &lt;/td&gt;  &lt;td id=&#34;year&#34;&gt;&lt;/td&gt;&lt;td id=&#34;yearP&#34; class=&#34;percent&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;My life left: &lt;/td&gt;  &lt;td id=&#34;life&#34;&gt;&lt;/td&gt;&lt;td id=&#34;lifeP&#34; class=&#34;percent&#34;&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;script&gt;
@@ -391,7 +389,8 @@ class TimeProgressTracker {
             life: { bar: document.getElementById(&#39;life&#39;), perc: document.getElementById(&#39;lifeP&#39;) }
         };
 
-        // Start real-time updates
+        // Optimize for high-frequency updates
+        this.updateProgressIndicators = this.updateProgressIndicators.bind(this);
         this.startRealTimeUpdates();
     }
 
@@ -409,11 +408,13 @@ class TimeProgressTracker {
         return &#39;🌕&#39;.repeat(fullLights) + midPhase + &#39;🌑&#39;.repeat(9 - fullLights);
     }
 
-    // Percentage calculation methods
+    // Precision calculation methods with high-precision return
     calculateDayProgress(date) {
         const hour = date.getHours();
         const minute = date.getMinutes();
-        return 1 - (hour + minute / 60) / 24;
+        const second = date.getSeconds();
+        const millisecond = date.getMilliseconds();
+        return 1 - (hour * 3600000 + minute * 60000 + second * 1000 + millisecond) / 86400000;
     }
 
     calculateWeekProgress(date) {
@@ -426,15 +427,15 @@ class TimeProgressTracker {
     calculateMonthProgress(date) {
         const year = date.getFullYear();
         const month = date.getMonth();
-        const thisMonth = new Date(year, month, 1, 8);
-        const nextMonth = new Date(year, month + 1, 1, 8);
+        const thisMonth = new Date(year, month, 1, 0, 0, 0, 0);
+        const nextMonth = new Date(year, month + 1, 1, 0, 0, 0, 0);
         return (nextMonth - date) / (nextMonth - thisMonth);
     }
 
     calculateYearProgress(date) {
         const year = date.getFullYear();
-        const startOfYear = new Date(year, 0, 1, 8);
-        const nextYear = new Date(year + 1, 0, 1, 8);
+        const startOfYear = new Date(year, 0, 1, 0, 0, 0, 0);
+        const nextYear = new Date(year + 1, 0, 1, 0, 0, 0, 0);
         return (nextYear - date) / (nextYear - startOfYear);
     }
 
@@ -443,12 +444,12 @@ class TimeProgressTracker {
             this.birthDate.getFullYear() + this.lifeSpan, 
             this.birthDate.getMonth(), 
             this.birthDate.getDate(), 
-            8
+            0, 0, 0, 0
         );
         return 1 - (date - this.birthDate) / (endDate - this.birthDate);
     }
 
-    // Update all progress indicators
+    // Update all progress indicators with high precision
     updateProgressIndicators() {
         const now = new Date();
         const progressCalculations = [
@@ -461,17 +462,22 @@ class TimeProgressTracker {
 
         progressCalculations.forEach(({ key, calc }) =&gt; {
             const percent = calc(now);
-            const roundedPercent = Math.round(percent * 100);
+            
+            // Format to 4 decimal places
+            const formattedPercent = (percent * 100).toFixed(4);
             
             this.elements[key].bar.textContent = this.getProgressBar(percent);
-            this.elements[key].perc.textContent = `${roundedPercent}%`;
+            this.elements[key].perc.textContent = `${formattedPercent}%`;
         });
     }
 
-    // Start real-time updates every second
+    // Optimize updates with requestAnimationFrame for smooth, efficient rendering
     startRealTimeUpdates() {
-        this.updateProgressIndicators();
-        setInterval(() =&gt; this.updateProgressIndicators(), 1000);
+        const updateLoop = () =&gt; {
+            this.updateProgressIndicators();
+            requestAnimationFrame(updateLoop);
+        };
+        requestAnimationFrame(updateLoop);
     }
 }
 
