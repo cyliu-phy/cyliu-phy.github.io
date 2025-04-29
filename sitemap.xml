@@ -8,10 +8,10 @@
     <loc>https://cyliu.cc/</loc>
     <lastmod>2024-08-23T22:16:53+08:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/french/</loc>
+    <loc>https://cyliu.cc/categories/french/</loc>
     <lastmod>2024-08-23T22:16:53+08:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/categories/french/</loc>
+    <loc>https://cyliu.cc/tags/french/</loc>
     <lastmod>2024-08-23T22:16:53+08:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/french_grammar/</loc>
@@ -32,10 +32,10 @@
     <loc>https://cyliu.cc/posts/extract-figures-from-pdf/</loc>
     <lastmod>2023-08-09T22:14:22+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/physics/</loc>
+    <loc>https://cyliu.cc/categories/physics/</loc>
     <lastmod>2023-05-21T21:24:00+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/categories/physics/</loc>
+    <loc>https://cyliu.cc/tags/physics/</loc>
     <lastmod>2023-05-21T21:24:00+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</loc>
@@ -44,16 +44,16 @@
     <loc>https://cyliu.cc/posts/2023-reading-post/</loc>
     <lastmod>2023-03-10T21:29:19+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/reading/</loc>
-    <lastmod>2023-03-10T21:29:19+00:00</lastmod>
-  </url><url>
     <loc>https://cyliu.cc/categories/reading/</loc>
     <lastmod>2023-03-10T21:29:19+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/english/</loc>
-    <lastmod>2023-02-02T22:16:33+00:00</lastmod>
+    <loc>https://cyliu.cc/tags/reading/</loc>
+    <lastmod>2023-03-10T21:29:19+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/categories/english/</loc>
+    <lastmod>2023-02-02T22:16:33+00:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/tags/english/</loc>
     <lastmod>2023-02-02T22:16:33+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/word-power-made-easy/</loc>
@@ -65,16 +65,16 @@
     <loc>https://cyliu.cc/categories/code/</loc>
     <lastmod>2022-11-19T14:27:04+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/fortran/</loc>
-    <lastmod>2022-11-19T14:27:04+00:00</lastmod>
-  </url><url>
     <loc>https://cyliu.cc/posts/fortran/</loc>
     <lastmod>2022-11-19T14:27:04+00:00</lastmod>
   </url><url>
-    <loc>https://cyliu.cc/tags/math/</loc>
-    <lastmod>2022-09-04T16:14:25+00:00</lastmod>
+    <loc>https://cyliu.cc/tags/fortran/</loc>
+    <lastmod>2022-11-19T14:27:04+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/categories/math/</loc>
+    <lastmod>2022-09-04T16:14:25+00:00</lastmod>
+  </url><url>
+    <loc>https://cyliu.cc/tags/math/</loc>
     <lastmod>2022-09-04T16:14:25+00:00</lastmod>
   </url><url>
     <loc>https://cyliu.cc/posts/volume-of-n-ball/</loc>

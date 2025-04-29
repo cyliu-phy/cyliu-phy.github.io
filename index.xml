@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.139.3</generator>
+    <generator>Hugo -- 0.147.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/index.xml" rel="self" type="application/rss+xml" />
@@ -254,19 +254,31 @@
 &lt;p&gt;量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。&lt;/p&gt;
 &lt;p&gt;左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，&lt;/p&gt;
 &lt;p&gt;$|x\rangle$ 对应一个矢量，它的演化遵循Schrodinger方程， $|x\rangle\langle x|$ 是一个算符，遵循Heisenberg方程。&lt;/p&gt;
+&lt;p&gt;量子态都是归一的，
+&lt;/p&gt;
 $$
 \int \psi^*(x)\psi(x)dx=1
-$$$$
+$$&lt;p&gt;
+用Dirac符号表示
+&lt;/p&gt;
+$$
 \int \langle \psi | x\rangle \langle x| \psi\rangle dx = 1
-$$$$
+$$&lt;p&gt;那么
+&lt;/p&gt;
+$$
 \int | x\rangle \langle x| dx = I
-$$$$
+$$&lt;p&gt;
+可以看成单位算符，但是这个关系一般都是当成定理来用，具体计算过程并没有给出。另外，如果要计算
+&lt;/p&gt;
+$$
 \int \left|\frac{x}{2}\right\rangle \langle x |dx
 $$&lt;p&gt;又该如何计算。&lt;/p&gt;
 &lt;p&gt;首先，给出一个关系&lt;/p&gt;
 $$
 |x\rangle \langle x| = \delta(x-\hat X)
 $$&lt;p&gt;作用在矢量$|x&amp;rsquo;\rangle$上可以看出两边相等&lt;/p&gt;
+&lt;p&gt;那么
+&lt;/p&gt;
 $$
 \begin{aligned}
 |x\rangle \langle x| &amp;= \delta(x-\hat X)\\
@@ -706,12 +718,19 @@ PhD candidate in High Energy Physics/Amateur etymologist/Amateur programmer&lt;/
 Chinese/English/French/python/javascript&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Research&lt;/strong&gt;&lt;br&gt;
 Fragmentation Function in QCD&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;br&gt;
-Automated calculation of jet fragmentation at NLO in QCD. J. High Energ. Phys. 2023, 108 (2023). &lt;a href=&#34;https://doi.org/10.1007/JHEP09(2023)108&#34;&gt;https://doi.org/10.1007/JHEP09(2023)108&lt;/a&gt;
-Simultaneous Determination of Fragmentation Functions and Test on Momentum Sum Rule. Phys. Rev. Lett. 132, 261903. &lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.132.261903&#34;&gt;https://doi.org/10.1103/PhysRevLett.132.261903&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;br&gt;
-2017-2021: BS in Applied Physics, Dalian University of Technology.&lt;br&gt;
-2021-present: PhD in Particle Physics, Institute of Nuclear and Particle Physics, Shanghai Jiao Tong University.&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated calculation of jet fragmentation at NLO in QCD. J. High Energ. Phys. 2023, 108 (2023). &lt;a href=&#34;https://doi.org/10.1007/JHEP09(2023)108&#34;&gt;https://doi.org/10.1007/JHEP09(2023)108&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Simultaneous Determination of Fragmentation Functions and Test on Momentum Sum Rule. Phys. Rev. Lett. 132, 261903. &lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.132.261903&#34;&gt;https://doi.org/10.1103/PhysRevLett.132.261903&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Global analysis of fragmentation functions to charged hadrons with high-precision data from the LHC. Phys.Rev.D 110 (2024) 11, 114019. &lt;a href=&#34;https://doi.org/10.1103/PhysRevD.110.114019&#34;&gt;https://doi.org/10.1103/PhysRevD.110.114019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2017-2021: BS in Applied Physics, Dalian University of Technology.&lt;/li&gt;
+&lt;li&gt;2021-present: PhD in Particle Physics, Institute of Nuclear and Particle Physics, Shanghai Jiao Tong University.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Contact&lt;/strong&gt;&lt;br&gt;
+email: &lt;a href=&#34;mailto:cyliu@cyliu.cc&#34;&gt;cyliu@cyliu.cc&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
