@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/index.xml" rel="self" type="application/rss+xml" />
@@ -632,19 +632,6 @@ $$</description>
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</description>
-    </item>
-    <item>
-      <title>Personal Download Site</title>
-      <link>https://cyliu.cc/posts/personal-download-site/</link>
-      <pubDate>Sun, 14 Nov 2021 20:28:28 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/personal-download-site/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://dl.cyliu.cc&#34;&gt;AList&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My personal drive, based on &lt;a href=&#34;https://alist.nn.ci/&#34;&gt;this project&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Physics folder username &amp;ldquo;liucy&amp;rdquo;, password &amp;ldquo;liucy&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Mathematics folder username &amp;ldquo;cyliu&amp;rdquo;, password &amp;ldquo;cyliu&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;TE (The Economist magazine) folder username &amp;ldquo;TE&amp;rdquo;, password &amp;ldquo;theeconomist&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Code folder username &amp;ldquo;codecyl&amp;rdquo;, password &amp;ldquo;codecyl&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Languages folder username &amp;ldquo;cyllang&amp;rdquo;, password &amp;ldquo;cyllang&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Install Linux Distro on Android</title>

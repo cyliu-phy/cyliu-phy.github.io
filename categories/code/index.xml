@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Nov 2022 14:27:04 +0000</lastBuildDate>
     <atom:link href="https://cyliu.cc/categories/code/index.xml" rel="self" type="application/rss+xml" />
@@ -45,19 +45,6 @@
       <guid>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;之前一直是vim原教旨主义者，只用官方的vim，但是vim9推出之后看到网上的评价是重新做了一份插件语言，而neovim可以兼容vim还可以用lua配置，其次neovim内置lsp，想起之前配置语言自动补全的失败经历，尝试了下neovim的配置，果然方便太多了。
 下面记录配置python lsp的过程。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Personal Download Site</title>
-      <link>https://cyliu.cc/posts/personal-download-site/</link>
-      <pubDate>Sun, 14 Nov 2021 20:28:28 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/personal-download-site/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://dl.cyliu.cc&#34;&gt;AList&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;My personal drive, based on &lt;a href=&#34;https://alist.nn.ci/&#34;&gt;this project&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Physics folder username &amp;ldquo;liucy&amp;rdquo;, password &amp;ldquo;liucy&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Mathematics folder username &amp;ldquo;cyliu&amp;rdquo;, password &amp;ldquo;cyliu&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;TE (The Economist magazine) folder username &amp;ldquo;TE&amp;rdquo;, password &amp;ldquo;theeconomist&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Code folder username &amp;ldquo;codecyl&amp;rdquo;, password &amp;ldquo;codecyl&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Languages folder username &amp;ldquo;cyllang&amp;rdquo;, password &amp;ldquo;cyllang&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>内网穿透与vnc</title>
