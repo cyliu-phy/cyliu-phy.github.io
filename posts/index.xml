@@ -9,10 +9,24 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 15:46:05 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode</title>
+      <link>https://cyliu.cc/posts/leetcode/</link>
+      <pubDate>Thu, 11 Sep 2025 15:46:05 +0800</pubDate>
+      <guid>https://cyliu.cc/posts/leetcode/</guid>
+      <description>&lt;p&gt;This posts is used to log my leetcode problem solving.&lt;/p&gt;
+&lt;h3 id=&#34;2785-sort-vowels-in-a-string-20250911&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-vowels-in-a-string&#34;&gt;2785. Sort Vowels in a String&lt;/a&gt; 2025.09.11&lt;/h3&gt;
+&lt;p&gt;Given a &lt;strong&gt;0-indexed&lt;/strong&gt; string &lt;code&gt;s&lt;/code&gt;, &lt;strong&gt;permute&lt;/strong&gt; &lt;code&gt;s&lt;/code&gt; to get a new string &lt;code&gt;t&lt;/code&gt; such that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All consonants remain in their original places. More formally, if there is an index &lt;code&gt;i&lt;/code&gt; with &lt;code&gt;0 &amp;lt;= i &amp;lt; s.length&lt;/code&gt; such that &lt;code&gt;s[i]&lt;/code&gt; is a consonant, then &lt;code&gt;t[i] = s[i]&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The vowels must be sorted in the &lt;strong&gt;nondecreasing&lt;/strong&gt; order of their &lt;strong&gt;ASCII&lt;/strong&gt; values. More formally, for pairs of indices &lt;code&gt;i&lt;/code&gt;, &lt;code&gt;j&lt;/code&gt; with &lt;code&gt;0 &amp;lt;= i &amp;lt; j &amp;lt; s.length&lt;/code&gt; such that &lt;code&gt;s[i]&lt;/code&gt; and &lt;code&gt;s[j]&lt;/code&gt; are vowels, then &lt;code&gt;t[i]&lt;/code&gt; must not have a higher ASCII value than &lt;code&gt;t[j]&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Return &lt;em&gt;the resulting string&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>French Grammar for Dummies</title>
       <link>https://cyliu.cc/posts/french_grammar/</link>
