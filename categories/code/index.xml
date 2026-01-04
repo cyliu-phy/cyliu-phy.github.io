@@ -9,15 +9,32 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.153.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 15:46:05 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 10:21:28 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/categories/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LeetCode</title>
-      <link>https://cyliu.cc/posts/leetcode/</link>
+      <title>Leetcode 2026</title>
+      <link>https://cyliu.cc/posts/leetcode_2026/</link>
+      <pubDate>Sun, 04 Jan 2026 10:21:28 +0800</pubDate>
+      <guid>https://cyliu.cc/posts/leetcode_2026/</guid>
+      <description>&lt;h2 id=&#34;janvier&#34;&gt;Janvier&lt;/h2&gt;
+&lt;h3 id=&#34;1390-four-divisors-20250104&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/four-divisors/&#34;&gt;1390. Four Divisors&lt;/a&gt; 2025.01.04&lt;/h3&gt;
+&lt;p&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt;, return &lt;em&gt;the sum of divisors of the integers in that array that have exactly four divisors&lt;/em&gt;. If there is no such integer in the array, return &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [21,4,7]&lt;br&gt;
+&lt;strong&gt;Output:&lt;/strong&gt; 32&lt;br&gt;
+&lt;strong&gt;Explanation:&lt;/strong&gt;
+21 has 4 divisors: 1, 3, 7, 21&lt;br&gt;
+4 has 3 divisors: 1, 2, 4&lt;br&gt;
+7 has 2 divisors: 1, 7&lt;br&gt;
+The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LeetCode 2025</title>
+      <link>https://cyliu.cc/posts/leetcode_2025/</link>
       <pubDate>Thu, 11 Sep 2025 15:46:05 +0800</pubDate>
-      <guid>https://cyliu.cc/posts/leetcode/</guid>
+      <guid>https://cyliu.cc/posts/leetcode_2025/</guid>
       <description>&lt;p&gt;This post is used to log my leetcode problem solving.&lt;/p&gt;
 &lt;h3 id=&#34;2785-sort-vowels-in-a-string-20250911&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-vowels-in-a-string&#34;&gt;2785. Sort Vowels in a String&lt;/a&gt; 2025.09.11&lt;/h3&gt;
 &lt;p&gt;Given a &lt;strong&gt;0-indexed&lt;/strong&gt; string &lt;code&gt;s&lt;/code&gt;, &lt;strong&gt;permute&lt;/strong&gt; &lt;code&gt;s&lt;/code&gt; to get a new string &lt;code&gt;t&lt;/code&gt; such that:&lt;/p&gt;
@@ -47,7 +64,7 @@
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fortran&#34; data-lang=&#34;fortran&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;end&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;program&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
