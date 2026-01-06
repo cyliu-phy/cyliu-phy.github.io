@@ -49,7 +49,7 @@
       <pubDate>Sun, 04 Jan 2026 10:21:28 +0800</pubDate>
       <guid>https://cyliu.cc/posts/leetcode_2026/</guid>
       <description>&lt;h2 id=&#34;janvier&#34;&gt;Janvier&lt;/h2&gt;
-&lt;h3 id=&#34;1390-four-divisors-20250104&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/four-divisors/&#34;&gt;1390. Four Divisors&lt;/a&gt; 2025.01.04&lt;/h3&gt;
+&lt;h3 id=&#34;1390-four-divisors-20260104&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/four-divisors/&#34;&gt;1390. Four Divisors&lt;/a&gt; 2026.01.04&lt;/h3&gt;
 &lt;p&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt;, return &lt;em&gt;the sum of divisors of the integers in that array that have exactly four divisors&lt;/em&gt;. If there is no such integer in the array, return &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [21,4,7]&lt;br&gt;
