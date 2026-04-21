@@ -9,7 +9,7 @@
       <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Jan 2026 10:41:40 +0800</lastBuildDate>
     <atom:link href="https://cyliu.cc/categories/reading/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
 | ![](https://s41.ax1x.com/2026/01/04/pZaiYUf.png) | 有限与无限的游戏 | 2025.12.23-2026.01.03 | 100% |
 | ![](https://s41.ax1x.com/2026/01/04/pZaiZE6.png) | 国家为什么会破产：大周期 | 2025.12.16- | 20% |
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519870909181586-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776752915811761602-data&#34;&gt;
 
 book &#34;国家为什么会破产：大周期&#34; {
   cover: &#34;https://s41.ax1x.com/2026/01/04/pZaiZE6.png&#34;,
@@ -44,7 +44,7 @@ book &#34;有限与无限的游戏&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519870909181586&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776752915811761602&#34;&gt;&lt;/div&gt;
 
 
 
@@ -818,9 +818,9 @@ book &#34;有限与无限的游戏&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519870909181586&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776752915811761602&#39;));
   } else {
-    render(&#39;bsml-1771519870909181586&#39;);
+    render(&#39;bsml-1776752915811761602&#39;);
   }
 })();
 &lt;/script&gt;</description>
@@ -842,7 +842,7 @@ book &#34;有限与无限的游戏&#34; {
 |![](https://s11.ax1x.com/2023/12/25/piH6JBQ.png) | A Tale of Two Cities | 2023.12.25 | 100% |
 
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519871190104631-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776752916075383932-data&#34;&gt;
 
 book &#34;Atomic Habits&#34; {
   cover: &#34;https://s1.ax1x.com/2023/03/10/ppugHX9.jpg&#34;,
@@ -908,7 +908,7 @@ book &#34;A Tale of Two Cities&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519871190104631&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776752916075383932&#34;&gt;&lt;/div&gt;
 
 
 
@@ -1682,9 +1682,9 @@ book &#34;A Tale of Two Cities&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519871190104631&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776752916075383932&#39;));
   } else {
-    render(&#39;bsml-1771519871190104631&#39;);
+    render(&#39;bsml-1776752916075383932&#39;);
   }
 })();
 &lt;/script&gt;</description>
