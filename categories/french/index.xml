@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>French on CYLiu</title>
-    <link>//101.132.185.183:8945/categories/french/</link>
+    <link>https://cyliu.cc/categories/french/</link>
     <description>Recent content in French on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Aug 2024 22:16:53 +0800</lastBuildDate>
-    <atom:link href="//101.132.185.183:8945/categories/french/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cyliu.cc/categories/french/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>French Grammar for Dummies</title>
-      <link>//101.132.185.183:8945/posts/french_grammar/</link>
+      <link>https://cyliu.cc/posts/french_grammar/</link>
       <pubDate>Fri, 23 Aug 2024 22:16:53 +0800</pubDate>
-      <guid>//101.132.185.183:8945/posts/french_grammar/</guid>
+      <guid>https://cyliu.cc/posts/french_grammar/</guid>
       <description>&lt;p&gt;Based on &lt;em&gt;French Grammar for Dummies&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;chapter-3-nouns-and-determiners&#34;&gt;Chapter 3 Nouns and Determiners&lt;/h2&gt;
 &lt;h3 id=&#34;gender-of-nouns&#34;&gt;Gender of Nouns&lt;/h3&gt;
@@ -120,9 +120,9 @@
     </item>
     <item>
       <title>2022 French Learning Post</title>
-      <link>//101.132.185.183:8945/posts/2022-french-learning-post/</link>
+      <link>https://cyliu.cc/posts/2022-french-learning-post/</link>
       <pubDate>Thu, 20 Jan 2022 22:11:42 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/2022-french-learning-post/</guid>
+      <guid>https://cyliu.cc/posts/2022-french-learning-post/</guid>
       <description>&lt;p&gt;Date start 2022-01-20&lt;/p&gt;
 &lt;p&gt;Le Petit Prince Chapter I&lt;/p&gt;</description>
     </item>

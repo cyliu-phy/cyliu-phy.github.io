@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Physics on CYLiu</title>
-    <link>//101.132.185.183:8945/categories/physics/</link>
+    <link>https://cyliu.cc/categories/physics/</link>
     <description>Recent content in Physics on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 21 May 2023 21:24:00 +0000</lastBuildDate>
-    <atom:link href="//101.132.185.183:8945/categories/physics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cyliu.cc/categories/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>另辟蹊径量子力学 by 范洪义</title>
-      <link>//101.132.185.183:8945/posts/new-path-to-quantum-mechanics/</link>
+      <link>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</link>
       <pubDate>Sun, 21 May 2023 21:24:00 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/new-path-to-quantum-mechanics/</guid>
+      <guid>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</guid>
       <description>&lt;p&gt;From 2023.05.18 Lecture&lt;/p&gt;
 &lt;p&gt;量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。&lt;/p&gt;
 &lt;p&gt;左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，&lt;/p&gt;
@@ -63,9 +63,9 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
     </item>
     <item>
       <title>Trace Theorems</title>
-      <link>//101.132.185.183:8945/posts/trace-theorems/</link>
+      <link>https://cyliu.cc/posts/trace-theorems/</link>
       <pubDate>Wed, 15 Jun 2022 10:08:03 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/trace-theorems/</guid>
+      <guid>https://cyliu.cc/posts/trace-theorems/</guid>
       <description>$$
 \operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
 $$$$
@@ -76,9 +76,9 @@ $$</description>
     </item>
     <item>
       <title>Quantum Field Theory-Ryder</title>
-      <link>//101.132.185.183:8945/posts/quantum-field-theory-ryder/</link>
+      <link>https://cyliu.cc/posts/quantum-field-theory-ryder/</link>
       <pubDate>Thu, 17 Feb 2022 15:37:45 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/quantum-field-theory-ryder/</guid>
+      <guid>https://cyliu.cc/posts/quantum-field-theory-ryder/</guid>
       <description>&lt;h1 id=&#34;quantum-feild-theory-ryder&#34;&gt;Quantum Feild Theory Ryder&lt;/h1&gt;
 &lt;h2 id=&#34;chapter-2-single-particle-relativistic-wave-equations&#34;&gt;Chapter 2 Single-particle relativistic wave equations&lt;/h2&gt;</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Code on CYLiu</title>
-    <link>//101.132.185.183:8945/categories/code/</link>
+    <link>https://cyliu.cc/categories/code/</link>
     <description>Recent content in Code on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Jan 2026 10:21:28 +0800</lastBuildDate>
-    <atom:link href="//101.132.185.183:8945/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cyliu.cc/categories/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode 2026</title>
-      <link>//101.132.185.183:8945/posts/leetcode_2026/</link>
+      <link>https://cyliu.cc/posts/leetcode_2026/</link>
       <pubDate>Sun, 04 Jan 2026 10:21:28 +0800</pubDate>
-      <guid>//101.132.185.183:8945/posts/leetcode_2026/</guid>
+      <guid>https://cyliu.cc/posts/leetcode_2026/</guid>
       <description>&lt;h2 id=&#34;janvier&#34;&gt;Janvier&lt;/h2&gt;
 &lt;h3 id=&#34;1390-four-divisors-20260104&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/four-divisors/&#34;&gt;1390. Four Divisors&lt;/a&gt; 2026.01.04&lt;/h3&gt;
 &lt;p&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt;, return &lt;em&gt;the sum of divisors of the integers in that array that have exactly four divisors&lt;/em&gt;. If there is no such integer in the array, return &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
@@ -32,9 +32,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2025</title>
-      <link>//101.132.185.183:8945/posts/leetcode_2025/</link>
+      <link>https://cyliu.cc/posts/leetcode_2025/</link>
       <pubDate>Thu, 11 Sep 2025 15:46:05 +0800</pubDate>
-      <guid>//101.132.185.183:8945/posts/leetcode_2025/</guid>
+      <guid>https://cyliu.cc/posts/leetcode_2025/</guid>
       <description>&lt;p&gt;This post is used to log my leetcode problem solving.&lt;/p&gt;
 &lt;h3 id=&#34;2785-sort-vowels-in-a-string-20250911&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-vowels-in-a-string&#34;&gt;2785. Sort Vowels in a String&lt;/a&gt; 2025.09.11&lt;/h3&gt;
 &lt;p&gt;Given a &lt;strong&gt;0-indexed&lt;/strong&gt; string &lt;code&gt;s&lt;/code&gt;, &lt;strong&gt;permute&lt;/strong&gt; &lt;code&gt;s&lt;/code&gt; to get a new string &lt;code&gt;t&lt;/code&gt; such that:&lt;/p&gt;
@@ -46,9 +46,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fortran</title>
-      <link>//101.132.185.183:8945/posts/fortran/</link>
+      <link>https://cyliu.cc/posts/fortran/</link>
       <pubDate>Sat, 19 Nov 2022 14:27:04 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/fortran/</guid>
+      <guid>https://cyliu.cc/posts/fortran/</guid>
       <description>&lt;h2 id=&#34;0-some-basic-properties&#34;&gt;0 Some basic properties&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fortran code is &lt;strong&gt;case insensitive&lt;/strong&gt;&lt;/li&gt;
@@ -71,25 +71,25 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Neovim lsp配置</title>
-      <link>//101.132.185.183:8945/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</link>
+      <link>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sat, 09 Jul 2022 19:46:56 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;之前一直是vim原教旨主义者，只用官方的vim，但是vim9推出之后看到网上的评价是重新做了一份插件语言，而neovim可以兼容vim还可以用lua配置，其次neovim内置lsp，想起之前配置语言自动补全的失败经历，尝试了下neovim的配置，果然方便太多了。
 下面记录配置python lsp的过程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>内网穿透与vnc</title>
-      <link>//101.132.185.183:8945/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</link>
+      <link>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</link>
       <pubDate>Tue, 28 Sep 2021 21:40:00 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</guid>
+      <guid>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</guid>
       <description>&lt;h2 id=&#34;内网穿透&#34;&gt;内网穿透&lt;/h2&gt;
 &lt;p&gt;最简单的方案为ssh端口转发，但是ssh断掉之后不会自动重连，我们需要autossh，它可以监控本地端口状态自动重连&lt;/p&gt;</description>
     </item>
     <item>
       <title>阿里云服务器安装Arch并配置</title>
-      <link>//101.132.185.183:8945/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</link>
+      <link>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 19 Apr 2021 10:14:12 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;前天把阿里云服务器的Ubuntu重装成了ArchLinux&lt;/p&gt;</description>
     </item>
   </channel>

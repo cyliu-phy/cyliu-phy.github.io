@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reading on CYLiu</title>
-    <link>//101.132.185.183:8945/categories/reading/</link>
+    <link>https://cyliu.cc/categories/reading/</link>
     <description>Recent content in Reading on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Jan 2026 10:41:40 +0800</lastBuildDate>
-    <atom:link href="//101.132.185.183:8945/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cyliu.cc/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026 Reading Post</title>
-      <link>//101.132.185.183:8945/posts/2026-reading-post/</link>
+      <link>https://cyliu.cc/posts/2026-reading-post/</link>
       <pubDate>Sun, 04 Jan 2026 10:41:40 +0800</pubDate>
-      <guid>//101.132.185.183:8945/posts/2026-reading-post/</guid>
+      <guid>https://cyliu.cc/posts/2026-reading-post/</guid>
       <description>&lt;!--
 | cover | Name | Time | Progress |
 |---|---|---|---|
 | ![](https://s41.ax1x.com/2026/01/04/pZaiYUf.png) | 有限与无限的游戏 | 2025.12.23-2026.01.03 | 100% |
 | ![](https://s41.ax1x.com/2026/01/04/pZaiZE6.png) | 国家为什么会破产：大周期 | 2025.12.16- | 20% |
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776750866128675803-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519870909181586-data&#34;&gt;
 
 book &#34;国家为什么会破产：大周期&#34; {
   cover: &#34;https://s41.ax1x.com/2026/01/04/pZaiZE6.png&#34;,
@@ -44,7 +44,7 @@ book &#34;有限与无限的游戏&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776750866128675803&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519870909181586&#34;&gt;&lt;/div&gt;
 
 
 
@@ -818,18 +818,18 @@ book &#34;有限与无限的游戏&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776750866128675803&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519870909181586&#39;));
   } else {
-    render(&#39;bsml-1776750866128675803&#39;);
+    render(&#39;bsml-1771519870909181586&#39;);
   }
 })();
 &lt;/script&gt;</description>
     </item>
     <item>
       <title>2023 Reading Post</title>
-      <link>//101.132.185.183:8945/posts/2023-reading-post/</link>
+      <link>https://cyliu.cc/posts/2023-reading-post/</link>
       <pubDate>Fri, 10 Mar 2023 21:29:19 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/2023-reading-post/</guid>
+      <guid>https://cyliu.cc/posts/2023-reading-post/</guid>
       <description>&lt;!--
 | cover | Name | Time | Progress |
 |---|---|---|---|
@@ -842,7 +842,7 @@ book &#34;有限与无限的游戏&#34; {
 |![](https://s11.ax1x.com/2023/12/25/piH6JBQ.png) | A Tale of Two Cities | 2023.12.25 | 100% |
 
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776750866437018586-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519871190104631-data&#34;&gt;
 
 book &#34;Atomic Habits&#34; {
   cover: &#34;https://s1.ax1x.com/2023/03/10/ppugHX9.jpg&#34;,
@@ -908,7 +908,7 @@ book &#34;A Tale of Two Cities&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776750866437018586&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519871190104631&#34;&gt;&lt;/div&gt;
 
 
 
@@ -1682,18 +1682,18 @@ book &#34;A Tale of Two Cities&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776750866437018586&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519871190104631&#39;));
   } else {
-    render(&#39;bsml-1776750866437018586&#39;);
+    render(&#39;bsml-1771519871190104631&#39;);
   }
 })();
 &lt;/script&gt;</description>
     </item>
     <item>
       <title>2022 Reading Post</title>
-      <link>//101.132.185.183:8945/posts/2022-reading-post/</link>
+      <link>https://cyliu.cc/posts/2022-reading-post/</link>
       <pubDate>Mon, 03 Jan 2022 12:48:53 +0000</pubDate>
-      <guid>//101.132.185.183:8945/posts/2022-reading-post/</guid>
+      <guid>https://cyliu.cc/posts/2022-reading-post/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
