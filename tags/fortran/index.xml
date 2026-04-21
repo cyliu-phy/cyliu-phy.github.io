@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fortran on CYLiu</title>
-    <link>https://cyliu.cc/tags/fortran/</link>
+    <link>//101.132.185.183:8945/tags/fortran/</link>
     <description>Recent content in Fortran on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Nov 2022 14:27:04 +0000</lastBuildDate>
-    <atom:link href="https://cyliu.cc/tags/fortran/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//101.132.185.183:8945/tags/fortran/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fortran</title>
-      <link>https://cyliu.cc/posts/fortran/</link>
+      <link>//101.132.185.183:8945/posts/fortran/</link>
       <pubDate>Sat, 19 Nov 2022 14:27:04 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/fortran/</guid>
+      <guid>//101.132.185.183:8945/posts/fortran/</guid>
       <description>&lt;h2 id=&#34;0-some-basic-properties&#34;&gt;0 Some basic properties&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fortran code is &lt;strong&gt;case insensitive&lt;/strong&gt;&lt;/li&gt;

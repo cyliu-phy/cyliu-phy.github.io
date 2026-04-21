@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on CYLiu</title>
-    <link>https://cyliu.cc/posts/</link>
+    <link>//101.132.185.183:8945/posts/</link>
     <description>Recent content in Posts on CYLiu</description>
     <image>
       <title>CYLiu</title>
-      <url>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://cyliu.cc/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>//101.132.185.183:8945/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Jan 2026 10:41:40 +0800</lastBuildDate>
-    <atom:link href="https://cyliu.cc/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//101.132.185.183:8945/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026 Reading Post</title>
-      <link>https://cyliu.cc/posts/2026-reading-post/</link>
+      <link>//101.132.185.183:8945/posts/2026-reading-post/</link>
       <pubDate>Sun, 04 Jan 2026 10:41:40 +0800</pubDate>
-      <guid>https://cyliu.cc/posts/2026-reading-post/</guid>
+      <guid>//101.132.185.183:8945/posts/2026-reading-post/</guid>
       <description>&lt;!--
 | cover | Name | Time | Progress |
 |---|---|---|---|
 | ![](https://s41.ax1x.com/2026/01/04/pZaiYUf.png) | 有限与无限的游戏 | 2025.12.23-2026.01.03 | 100% |
 | ![](https://s41.ax1x.com/2026/01/04/pZaiZE6.png) | 国家为什么会破产：大周期 | 2025.12.16- | 20% |
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519870909181586-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776750866128675803-data&#34;&gt;
 
 book &#34;国家为什么会破产：大周期&#34; {
   cover: &#34;https://s41.ax1x.com/2026/01/04/pZaiZE6.png&#34;,
@@ -44,7 +44,7 @@ book &#34;有限与无限的游戏&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519870909181586&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776750866128675803&#34;&gt;&lt;/div&gt;
 
 
 
@@ -818,18 +818,18 @@ book &#34;有限与无限的游戏&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519870909181586&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776750866128675803&#39;));
   } else {
-    render(&#39;bsml-1771519870909181586&#39;);
+    render(&#39;bsml-1776750866128675803&#39;);
   }
 })();
 &lt;/script&gt;</description>
     </item>
     <item>
       <title>Leetcode 2026</title>
-      <link>https://cyliu.cc/posts/leetcode_2026/</link>
+      <link>//101.132.185.183:8945/posts/leetcode_2026/</link>
       <pubDate>Sun, 04 Jan 2026 10:21:28 +0800</pubDate>
-      <guid>https://cyliu.cc/posts/leetcode_2026/</guid>
+      <guid>//101.132.185.183:8945/posts/leetcode_2026/</guid>
       <description>&lt;h2 id=&#34;janvier&#34;&gt;Janvier&lt;/h2&gt;
 &lt;h3 id=&#34;1390-four-divisors-20260104&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/four-divisors/&#34;&gt;1390. Four Divisors&lt;/a&gt; 2026.01.04&lt;/h3&gt;
 &lt;p&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt;, return &lt;em&gt;the sum of divisors of the integers in that array that have exactly four divisors&lt;/em&gt;. If there is no such integer in the array, return &lt;code&gt;0&lt;/code&gt;.&lt;/p&gt;
@@ -844,9 +844,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2025</title>
-      <link>https://cyliu.cc/posts/leetcode_2025/</link>
+      <link>//101.132.185.183:8945/posts/leetcode_2025/</link>
       <pubDate>Thu, 11 Sep 2025 15:46:05 +0800</pubDate>
-      <guid>https://cyliu.cc/posts/leetcode_2025/</guid>
+      <guid>//101.132.185.183:8945/posts/leetcode_2025/</guid>
       <description>&lt;p&gt;This post is used to log my leetcode problem solving.&lt;/p&gt;
 &lt;h3 id=&#34;2785-sort-vowels-in-a-string-20250911&#34;&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-vowels-in-a-string&#34;&gt;2785. Sort Vowels in a String&lt;/a&gt; 2025.09.11&lt;/h3&gt;
 &lt;p&gt;Given a &lt;strong&gt;0-indexed&lt;/strong&gt; string &lt;code&gt;s&lt;/code&gt;, &lt;strong&gt;permute&lt;/strong&gt; &lt;code&gt;s&lt;/code&gt; to get a new string &lt;code&gt;t&lt;/code&gt; such that:&lt;/p&gt;
@@ -858,9 +858,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>French Grammar for Dummies</title>
-      <link>https://cyliu.cc/posts/french_grammar/</link>
+      <link>//101.132.185.183:8945/posts/french_grammar/</link>
       <pubDate>Fri, 23 Aug 2024 22:16:53 +0800</pubDate>
-      <guid>https://cyliu.cc/posts/french_grammar/</guid>
+      <guid>//101.132.185.183:8945/posts/french_grammar/</guid>
       <description>&lt;p&gt;Based on &lt;em&gt;French Grammar for Dummies&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;chapter-3-nouns-and-determiners&#34;&gt;Chapter 3 Nouns and Determiners&lt;/h2&gt;
 &lt;h3 id=&#34;gender-of-nouns&#34;&gt;Gender of Nouns&lt;/h3&gt;
@@ -963,9 +963,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>typecho框架简单体验</title>
-      <link>https://cyliu.cc/posts/typecho_install/</link>
+      <link>//101.132.185.183:8945/posts/typecho_install/</link>
       <pubDate>Tue, 26 Dec 2023 10:12:27 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/typecho_install/</guid>
+      <guid>//101.132.185.183:8945/posts/typecho_install/</guid>
       <description>&lt;p&gt;我的博客一直采用静态博客，有一天GitHub首页推送了一个主题，看了下预览界面挺好看，但是仔细一看是typecho框架的，又看了下typecho的介绍，挺轻量的一个框架，就尝试安装一下。&lt;/p&gt;
 &lt;p&gt;这个框架基于php，所以我们要安装php和相关依赖，数据库可以选择mysql和sqlite，这里我选择sqlite，接下来安装相关依赖。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1063,9 +1063,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何优雅地科研抠图</title>
-      <link>https://cyliu.cc/posts/extract-figures-from-pdf/</link>
+      <link>//101.132.185.183:8945/posts/extract-figures-from-pdf/</link>
       <pubDate>Wed, 09 Aug 2023 22:14:22 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/extract-figures-from-pdf/</guid>
+      <guid>//101.132.185.183:8945/posts/extract-figures-from-pdf/</guid>
       <description>&lt;p&gt;有时候看到好看的图表想做slides使用，或者写综述需要用到别人的图，如何将图片提取出来。万能的截图肯定可以，但是会损失清晰度，那么有没有什么方法可以将图片完美地提取出来。&lt;/p&gt;
 &lt;p&gt;首先，如果插入的图片是png,jpeg等格式，它嵌入pdf时应该是整个二进制文件放进去，所以也可以再提取出来，这里我们使用poppler的pdfimages命令&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1090,9 +1090,9 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>另辟蹊径量子力学 by 范洪义</title>
-      <link>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</link>
+      <link>//101.132.185.183:8945/posts/new-path-to-quantum-mechanics/</link>
       <pubDate>Sun, 21 May 2023 21:24:00 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/new-path-to-quantum-mechanics/</guid>
+      <guid>//101.132.185.183:8945/posts/new-path-to-quantum-mechanics/</guid>
       <description>&lt;p&gt;From 2023.05.18 Lecture&lt;/p&gt;
 &lt;p&gt;量子力学有两种常用形式，Schrodinger的波动力学和Heisenberg的矩阵力学，Dirac符号将这两种结合到了一起。&lt;/p&gt;
 &lt;p&gt;左矢 (bra) 对应列矩阵，右矢(ket)对应列矩阵，同时波动力学里坐标表象可以表示为 $\langle x|\psi\rangle$，动量表象可以表示为$\langle p|\psi\rangle$，同时Dirac符号也有更深层次的理解，&lt;/p&gt;
@@ -1138,9 +1138,9 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
     </item>
     <item>
       <title>2023 Reading Post</title>
-      <link>https://cyliu.cc/posts/2023-reading-post/</link>
+      <link>//101.132.185.183:8945/posts/2023-reading-post/</link>
       <pubDate>Fri, 10 Mar 2023 21:29:19 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/2023-reading-post/</guid>
+      <guid>//101.132.185.183:8945/posts/2023-reading-post/</guid>
       <description>&lt;!--
 | cover | Name | Time | Progress |
 |---|---|---|---|
@@ -1153,7 +1153,7 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
 |![](https://s11.ax1x.com/2023/12/25/piH6JBQ.png) | A Tale of Two Cities | 2023.12.25 | 100% |
 
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1771519871190104631-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1776750866437018586-data&#34;&gt;
 
 book &#34;Atomic Habits&#34; {
   cover: &#34;https://s1.ax1x.com/2023/03/10/ppugHX9.jpg&#34;,
@@ -1219,7 +1219,7 @@ book &#34;A Tale of Two Cities&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1771519871190104631&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1776750866437018586&#34;&gt;&lt;/div&gt;
 
 
 
@@ -1993,25 +1993,25 @@ book &#34;A Tale of Two Cities&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1771519871190104631&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1776750866437018586&#39;));
   } else {
-    render(&#39;bsml-1771519871190104631&#39;);
+    render(&#39;bsml-1776750866437018586&#39;);
   }
 })();
 &lt;/script&gt;</description>
     </item>
     <item>
       <title>Word Power Made Easy</title>
-      <link>https://cyliu.cc/posts/word-power-made-easy/</link>
+      <link>//101.132.185.183:8945/posts/word-power-made-easy/</link>
       <pubDate>Thu, 02 Feb 2023 22:16:33 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/word-power-made-easy/</guid>
+      <guid>//101.132.185.183:8945/posts/word-power-made-easy/</guid>
       <description>&lt;p&gt;Word Power Made Easy reading notes&lt;/p&gt;</description>
     </item>
     <item>
       <title>Time Progress Bar</title>
-      <link>https://cyliu.cc/posts/time-progress-bar/</link>
+      <link>//101.132.185.183:8945/posts/time-progress-bar/</link>
       <pubDate>Mon, 23 Jan 2023 20:51:26 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/time-progress-bar/</guid>
+      <guid>//101.132.185.183:8945/posts/time-progress-bar/</guid>
       <description>&lt;style&gt;
     table {
         width: 100%;
@@ -2146,9 +2146,9 @@ new TimeProgressTracker();
     </item>
     <item>
       <title>Fortran</title>
-      <link>https://cyliu.cc/posts/fortran/</link>
+      <link>//101.132.185.183:8945/posts/fortran/</link>
       <pubDate>Sat, 19 Nov 2022 14:27:04 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/fortran/</guid>
+      <guid>//101.132.185.183:8945/posts/fortran/</guid>
       <description>&lt;h2 id=&#34;0-some-basic-properties&#34;&gt;0 Some basic properties&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fortran code is &lt;strong&gt;case insensitive&lt;/strong&gt;&lt;/li&gt;
@@ -2171,9 +2171,9 @@ new TimeProgressTracker();
     </item>
     <item>
       <title>Volume of n-ball</title>
-      <link>https://cyliu.cc/posts/volume-of-n-ball/</link>
+      <link>//101.132.185.183:8945/posts/volume-of-n-ball/</link>
       <pubDate>Sun, 04 Sep 2022 16:14:25 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/volume-of-n-ball/</guid>
+      <guid>//101.132.185.183:8945/posts/volume-of-n-ball/</guid>
       <description>&lt;p&gt;From dimensional analysis, volume of a n-ball is proportional to $R^n$&lt;/p&gt;
 $$
 V_n=C_n R^n
@@ -2184,17 +2184,17 @@ $$</description>
     </item>
     <item>
       <title>Neovim lsp配置</title>
-      <link>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</link>
+      <link>//101.132.185.183:8945/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sat, 09 Jul 2022 19:46:56 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
+      <guid>//101.132.185.183:8945/posts/neovim-lsp%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;之前一直是vim原教旨主义者，只用官方的vim，但是vim9推出之后看到网上的评价是重新做了一份插件语言，而neovim可以兼容vim还可以用lua配置，其次neovim内置lsp，想起之前配置语言自动补全的失败经历，尝试了下neovim的配置，果然方便太多了。
 下面记录配置python lsp的过程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trace Theorems</title>
-      <link>https://cyliu.cc/posts/trace-theorems/</link>
+      <link>//101.132.185.183:8945/posts/trace-theorems/</link>
       <pubDate>Wed, 15 Jun 2022 10:08:03 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/trace-theorems/</guid>
+      <guid>//101.132.185.183:8945/posts/trace-theorems/</guid>
       <description>$$
 \operatorname{Tr}(A+B) \equiv \operatorname{Tr}(A)+\operatorname{Tr}(B)
 $$$$
@@ -2205,32 +2205,32 @@ $$</description>
     </item>
     <item>
       <title>French Helper Check-in Calendar</title>
-      <link>https://cyliu.cc/posts/french-helper-pointer-calendar/</link>
+      <link>//101.132.185.183:8945/posts/french-helper-pointer-calendar/</link>
       <pubDate>Sun, 10 Apr 2022 19:03:23 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/french-helper-pointer-calendar/</guid>
+      <guid>//101.132.185.183:8945/posts/french-helper-pointer-calendar/</guid>
       <description>&lt;embed style=&#34;width:100%;height:400px;&#34; src=&#34;https://www.frdic.com/Dicts/Calendar?userid=dce27d15-02a3-11e9-8449-000c29ffef9b&amp;timezone=8&#34;&gt;</description>
     </item>
     <item>
       <title>Quantum Field Theory-Ryder</title>
-      <link>https://cyliu.cc/posts/quantum-field-theory-ryder/</link>
+      <link>//101.132.185.183:8945/posts/quantum-field-theory-ryder/</link>
       <pubDate>Thu, 17 Feb 2022 15:37:45 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/quantum-field-theory-ryder/</guid>
+      <guid>//101.132.185.183:8945/posts/quantum-field-theory-ryder/</guid>
       <description>&lt;h1 id=&#34;quantum-feild-theory-ryder&#34;&gt;Quantum Feild Theory Ryder&lt;/h1&gt;
 &lt;h2 id=&#34;chapter-2-single-particle-relativistic-wave-equations&#34;&gt;Chapter 2 Single-particle relativistic wave equations&lt;/h2&gt;</description>
     </item>
     <item>
       <title>2022 French Learning Post</title>
-      <link>https://cyliu.cc/posts/2022-french-learning-post/</link>
+      <link>//101.132.185.183:8945/posts/2022-french-learning-post/</link>
       <pubDate>Thu, 20 Jan 2022 22:11:42 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/2022-french-learning-post/</guid>
+      <guid>//101.132.185.183:8945/posts/2022-french-learning-post/</guid>
       <description>&lt;p&gt;Date start 2022-01-20&lt;/p&gt;
 &lt;p&gt;Le Petit Prince Chapter I&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022 Reading Post</title>
-      <link>https://cyliu.cc/posts/2022-reading-post/</link>
+      <link>//101.132.185.183:8945/posts/2022-reading-post/</link>
       <pubDate>Mon, 03 Jan 2022 12:48:53 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/2022-reading-post/</guid>
+      <guid>//101.132.185.183:8945/posts/2022-reading-post/</guid>
       <description>&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2282,24 +2282,24 @@ $$</description>
     </item>
     <item>
       <title>Install Linux Distro on Android</title>
-      <link>https://cyliu.cc/posts/install-linux-distro-on-android/</link>
+      <link>//101.132.185.183:8945/posts/install-linux-distro-on-android/</link>
       <pubDate>Fri, 01 Oct 2021 14:02:45 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/install-linux-distro-on-android/</guid>
+      <guid>//101.132.185.183:8945/posts/install-linux-distro-on-android/</guid>
       <description>&lt;p&gt;Android is based on linux kernel, so in theory Android system is able to accomplish many tasks in Linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>内网穿透与vnc</title>
-      <link>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</link>
+      <link>//101.132.185.183:8945/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</link>
       <pubDate>Tue, 28 Sep 2021 21:40:00 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</guid>
+      <guid>//101.132.185.183:8945/posts/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E4%B8%8Evnc/</guid>
       <description>&lt;h2 id=&#34;内网穿透&#34;&gt;内网穿透&lt;/h2&gt;
 &lt;p&gt;最简单的方案为ssh端口转发，但是ssh断掉之后不会自动重连，我们需要autossh，它可以监控本地端口状态自动重连&lt;/p&gt;</description>
     </item>
     <item>
       <title>Group Theory for Physicists</title>
-      <link>https://cyliu.cc/posts/group-theory-for-physicists/</link>
+      <link>//101.132.185.183:8945/posts/group-theory-for-physicists/</link>
       <pubDate>Sun, 27 Jun 2021 20:48:15 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/group-theory-for-physicists/</guid>
+      <guid>//101.132.185.183:8945/posts/group-theory-for-physicists/</guid>
       <description>&lt;h1 id=&#34;group-theory-for-physicists&#34;&gt;Group Theory for Physicists&lt;/h1&gt;
 &lt;h2 id=&#34;22-group-and-its-multiplication-table&#34;&gt;2.2 Group and its Multiplication Table&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Symmetric Transformation&lt;/strong&gt;: A transformation is called the symmetric transformation of a system if it preserves the system invariant.&lt;/p&gt;
@@ -2308,9 +2308,9 @@ A group $G$ is a set of symmetric transformation with a defined multiplication o
     </item>
     <item>
       <title>A visual introduction to differential forms and calculus on manifolds</title>
-      <link>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</link>
+      <link>//101.132.185.183:8945/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</link>
       <pubDate>Mon, 31 May 2021 00:21:48 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</guid>
+      <guid>//101.132.185.183:8945/posts/a-visual-introduction-to-differential-forms-and-calculus-on-manifolds/</guid>
       <description>&lt;h2 id=&#34;a-visual-introduction-to-differential-forms-and-calculus-on-manifolds&#34;&gt;A visual introduction to differential forms and calculus on manifolds&lt;/h2&gt;
 &lt;h3 id=&#34;chapter-1-background-material&#34;&gt;Chapter 1 Background material&lt;/h3&gt;
 &lt;h4 id=&#34;11-review-of-vector-spaces&#34;&gt;1.1 Review of vector spaces&lt;/h4&gt;
@@ -2329,16 +2329,16 @@ A group $G$ is a set of symmetric transformation with a defined multiplication o
     </item>
     <item>
       <title>阿里云服务器安装Arch并配置</title>
-      <link>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</link>
+      <link>//101.132.185.183:8945/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Mon, 19 Apr 2021 10:14:12 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</guid>
+      <guid>//101.132.185.183:8945/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%89%E8%A3%85arch%E5%B9%B6%E9%85%8D%E7%BD%AE/</guid>
       <description>&lt;p&gt;前天把阿里云服务器的Ubuntu重装成了ArchLinux&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vim Markdown 方案</title>
-      <link>https://cyliu.cc/posts/vim-markdown/</link>
+      <link>//101.132.185.183:8945/posts/vim-markdown/</link>
       <pubDate>Sun, 04 Apr 2021 21:55:06 +0000</pubDate>
-      <guid>https://cyliu.cc/posts/vim-markdown/</guid>
+      <guid>//101.132.185.183:8945/posts/vim-markdown/</guid>
       <description>&lt;p&gt;摸鱼的一天，没怎么看论文，在折腾一些软件。&lt;/p&gt;</description>
     </item>
   </channel>
