@@ -24,7 +24,7 @@
 | ![](https://s41.ax1x.com/2026/01/04/pZaiYUf.png) | 有限与无限的游戏 | 2025.12.23-2026.01.03 | 100% |
 | ![](https://s41.ax1x.com/2026/01/04/pZaiZE6.png) | 国家为什么会破产：大周期 | 2025.12.16- | 20% |
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1777273047625667058-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1780884723065503366-data&#34;&gt;
 
 book &#34;国家为什么会破产：大周期&#34; {
   cover: &#34;https://s41.ax1x.com/2026/01/04/pZaiZE6.png&#34;,
@@ -44,7 +44,7 @@ book &#34;有限与无限的游戏&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1777273047625667058&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1780884723065503366&#34;&gt;&lt;/div&gt;
 
 
 
@@ -818,9 +818,9 @@ book &#34;有限与无限的游戏&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1777273047625667058&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1780884723065503366&#39;));
   } else {
-    render(&#39;bsml-1777273047625667058&#39;);
+    render(&#39;bsml-1780884723065503366&#39;);
   }
 })();
 &lt;/script&gt;</description>
@@ -842,7 +842,7 @@ book &#34;有限与无限的游戏&#34; {
 |![](https://s11.ax1x.com/2023/12/25/piH6JBQ.png) | A Tale of Two Cities | 2023.12.25 | 100% |
 
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1777273047919058855-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1780884723316929134-data&#34;&gt;
 
 book &#34;Atomic Habits&#34; {
   cover: &#34;https://s1.ax1x.com/2023/03/10/ppugHX9.jpg&#34;,
@@ -908,7 +908,7 @@ book &#34;A Tale of Two Cities&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1777273047919058855&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1780884723316929134&#34;&gt;&lt;/div&gt;
 
 
 
@@ -1682,9 +1682,9 @@ book &#34;A Tale of Two Cities&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1777273047919058855&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1780884723316929134&#39;));
   } else {
-    render(&#39;bsml-1777273047919058855&#39;);
+    render(&#39;bsml-1780884723316929134&#39;);
   }
 })();
 &lt;/script&gt;</description>
