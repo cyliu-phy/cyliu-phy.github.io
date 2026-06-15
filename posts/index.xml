@@ -24,7 +24,7 @@
 | ![](https://s41.ax1x.com/2026/01/04/pZaiYUf.png) | 有限与无限的游戏 | 2025.12.23-2026.01.03 | 100% |
 | ![](https://s41.ax1x.com/2026/01/04/pZaiZE6.png) | 国家为什么会破产：大周期 | 2025.12.16- | 20% |
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1780884723065503366-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1781524426392910886-data&#34;&gt;
 
 book &#34;国家为什么会破产：大周期&#34; {
   cover: &#34;https://s41.ax1x.com/2026/01/04/pZaiZE6.png&#34;,
@@ -44,7 +44,7 @@ book &#34;有限与无限的游戏&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1780884723065503366&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1781524426392910886&#34;&gt;&lt;/div&gt;
 
 
 
@@ -818,9 +818,9 @@ book &#34;有限与无限的游戏&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1780884723065503366&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1781524426392910886&#39;));
   } else {
-    render(&#39;bsml-1780884723065503366&#39;);
+    render(&#39;bsml-1781524426392910886&#39;);
   }
 })();
 &lt;/script&gt;</description>
@@ -868,96 +868,96 @@ The answer is the sum of divisors of 21 only.&lt;/p&gt;</description>
 &lt;h3 id=&#34;patterns-of-masculine-nouns-and-feminine-nouns&#34;&gt;Patterns of Masculine Nouns and Feminine Nouns&lt;/h3&gt;
 &lt;p&gt;There&amp;rsquo;re some patterns that can be used to recognize gender of nouns&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Masculine Ending&lt;/th&gt;
-          &lt;th&gt;Examples&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-acle&lt;/td&gt;
-          &lt;td&gt;miracle, spectacle, obstacle&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-agle&lt;/td&gt;
-          &lt;td&gt;fromage, voyage, bagage&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-aire&lt;/td&gt;
-          &lt;td&gt;frigidaire, anniversaire&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-é(but not té)&lt;/td&gt;
-          &lt;td&gt;degré, marché&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-eau&lt;/td&gt;
-          &lt;td&gt;drapeau, chapeau&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-er, and -ier&lt;/td&gt;
-          &lt;td&gt;dîner, panier&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-isme&lt;/td&gt;
-          &lt;td&gt;tourisme, absolutisme&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ment&lt;/td&gt;
-          &lt;td&gt;gouverment, ornement&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Masculine Ending&lt;/th&gt;
+					&lt;th&gt;Examples&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-acle&lt;/td&gt;
+					&lt;td&gt;miracle, spectacle, obstacle&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-agle&lt;/td&gt;
+					&lt;td&gt;fromage, voyage, bagage&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-aire&lt;/td&gt;
+					&lt;td&gt;frigidaire, anniversaire&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-é(but not té)&lt;/td&gt;
+					&lt;td&gt;degré, marché&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-eau&lt;/td&gt;
+					&lt;td&gt;drapeau, chapeau&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-er, and -ier&lt;/td&gt;
+					&lt;td&gt;dîner, panier&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-isme&lt;/td&gt;
+					&lt;td&gt;tourisme, absolutisme&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ment&lt;/td&gt;
+					&lt;td&gt;gouverment, ornement&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Feminine Ending&lt;/th&gt;
-          &lt;th&gt;Examples&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ade&lt;/td&gt;
-          &lt;td&gt;façade, promenade&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ance&lt;/td&gt;
-          &lt;td&gt;enfance, naissance&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ée&lt;/td&gt;
-          &lt;td&gt;idée, journée&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ence&lt;/td&gt;
-          &lt;td&gt;différence, innocence&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ette&lt;/td&gt;
-          &lt;td&gt;crevette, chausette&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ie&lt;/td&gt;
-          &lt;td&gt;comédie, industrie&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-sion&lt;/td&gt;
-          &lt;td&gt;prévision, révision&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-té&lt;/td&gt;
-          &lt;td&gt;société, publicité&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-tion&lt;/td&gt;
-          &lt;td&gt;information, éducation&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;-ure&lt;/td&gt;
-          &lt;td&gt;voiture, couverture&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Feminine Ending&lt;/th&gt;
+					&lt;th&gt;Examples&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ade&lt;/td&gt;
+					&lt;td&gt;façade, promenade&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ance&lt;/td&gt;
+					&lt;td&gt;enfance, naissance&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ée&lt;/td&gt;
+					&lt;td&gt;idée, journée&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ence&lt;/td&gt;
+					&lt;td&gt;différence, innocence&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ette&lt;/td&gt;
+					&lt;td&gt;crevette, chausette&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ie&lt;/td&gt;
+					&lt;td&gt;comédie, industrie&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-sion&lt;/td&gt;
+					&lt;td&gt;prévision, révision&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-té&lt;/td&gt;
+					&lt;td&gt;société, publicité&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-tion&lt;/td&gt;
+					&lt;td&gt;information, éducation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;-ure&lt;/td&gt;
+					&lt;td&gt;voiture, couverture&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Masculine categories:&lt;/p&gt;</description>
     </item>
@@ -1153,7 +1153,7 @@ $$&lt;p&gt;第四行到第五行用了Glauber公式，第五行到第六行加�
 |![](https://s11.ax1x.com/2023/12/25/piH6JBQ.png) | A Tale of Two Cities | 2023.12.25 | 100% |
 
 --&gt;
-&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1780884723316929134-data&#34;&gt;
+&lt;script type=&#34;text/bsml&#34; id=&#34;bsml-1781524426735904616-data&#34;&gt;
 
 book &#34;Atomic Habits&#34; {
   cover: &#34;https://s1.ax1x.com/2023/03/10/ppugHX9.jpg&#34;,
@@ -1219,7 +1219,7 @@ book &#34;A Tale of Two Cities&#34; {
 }
 
 &lt;/script&gt;
-&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1780884723316929134&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;bsml-root&#34; id=&#34;bsml-1781524426735904616&#34;&gt;&lt;/div&gt;
 
 
 
@@ -1993,9 +1993,9 @@ book &#34;A Tale of Two Cities&#34; {
 
    
   if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1780884723316929134&#39;));
+    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; render(&#39;bsml-1781524426735904616&#39;));
   } else {
-    render(&#39;bsml-1780884723316929134&#39;);
+    render(&#39;bsml-1781524426735904616&#39;);
   }
 })();
 &lt;/script&gt;</description>
@@ -2232,52 +2232,52 @@ $$</description>
       <pubDate>Mon, 03 Jan 2022 12:48:53 +0000</pubDate>
       <guid>https://cyliu.cc/posts/2022-reading-post/</guid>
       <description>&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;cover&lt;/th&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Time&lt;/th&gt;
-          &lt;th&gt;Progress&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/03/15/bjlnij.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;沙丘&lt;/td&gt;
-          &lt;td&gt;2022.03.10-2022.03.12&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/05/12/OwzHBT.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;夏天、烟火和我的尸体&lt;/td&gt;
-          &lt;td&gt;2022.05.12&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/06/16/Xb9rY8.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;美国众神&lt;/td&gt;
-          &lt;td&gt;2022.06.14-2022.06.16&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/07/13/j2bpZj.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;伽利略的苦恼&lt;/td&gt;
-          &lt;td&gt;2022.07.09-2022.07.12&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/08/08/vMxFc6.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;Charlie et la Chocolaterie&lt;/td&gt;
-          &lt;td&gt;2022.07&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/09/28/xmER3V.jpg&#34;&gt;&lt;/td&gt;
-          &lt;td&gt;Great Expectations&lt;/td&gt;
-          &lt;td&gt;2022.08.02-2022.09.24&lt;/td&gt;
-          &lt;td&gt;100%&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;cover&lt;/th&gt;
+					&lt;th&gt;Name&lt;/th&gt;
+					&lt;th&gt;Time&lt;/th&gt;
+					&lt;th&gt;Progress&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/03/15/bjlnij.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;沙丘&lt;/td&gt;
+					&lt;td&gt;2022.03.10-2022.03.12&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/05/12/OwzHBT.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;夏天、烟火和我的尸体&lt;/td&gt;
+					&lt;td&gt;2022.05.12&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/06/16/Xb9rY8.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;美国众神&lt;/td&gt;
+					&lt;td&gt;2022.06.14-2022.06.16&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/07/13/j2bpZj.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;伽利略的苦恼&lt;/td&gt;
+					&lt;td&gt;2022.07.09-2022.07.12&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/08/08/vMxFc6.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;Charlie et la Chocolaterie&lt;/td&gt;
+					&lt;td&gt;2022.07&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://s1.ax1x.com/2022/09/28/xmER3V.jpg&#34;&gt;&lt;/td&gt;
+					&lt;td&gt;Great Expectations&lt;/td&gt;
+					&lt;td&gt;2022.08.02-2022.09.24&lt;/td&gt;
+					&lt;td&gt;100%&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;</description>
     </item>
     <item>
